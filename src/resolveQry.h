@@ -29,6 +29,8 @@ void criaRetFormasQry(double x, double y, double w, double h, char sw[], Lista l
 
 void criaQuadradoeN(Lista l, double x, double y,  int n);
 
+void criaTracejado(double x, double y, double x2, double y2, Cidade listas);
+
 /* esta funcao resolve o comando car
 ela recebe como parametro a lista que contem as listas, os dados lidos do comando car
 e o nome arquivo do txt junto ao seu diretório*/
@@ -153,9 +155,11 @@ void imprimeQuadrado(double x, double y, int n, char saida[]);
 
 void imprimeQuadradoAzul(double x, double y, char saida[]);
 
+void imprimeTracejado(double x, double y, double x2, double y2, char saida[]);
+
 void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num);
 
-void soc(Cidade cidade, Lista listaPS,  Lista listaQ, Lista listaQRY, int k, char cep[], char face, int num);
+void soc(Cidade cidade, Lista listaPS,  Lista listaQ, Lista listaQRY, int k, char cep[], char face, int num, char arqtxt[]);
 
 void ci(Lista listaQRY,double x,double y,double r);
 

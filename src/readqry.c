@@ -81,7 +81,7 @@ void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
 
         if(strcmp("soc",comando)==0){
             fscanf(arq,"%d %s %c %d", &def.n, def.cep, &def.face, &def.num);
-            soc(cidade, getListaPS(cidade), getListaQuadra(cidade), getListaQRY(cidade), def.n, def.cep, def.face, def.num);
+            soc(cidade, getListaPS(cidade), getListaQuadra(cidade), getListaQRY(cidade), def.n, def.cep, def.face, def.num, arquivotxt);
         }
 
         if(strcmp("ci",comando)==0){

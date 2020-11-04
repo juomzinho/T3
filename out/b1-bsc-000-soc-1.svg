@@ -655,5 +655,9 @@
 	<circle cx="598.238298" cy="80.790228" r="6" fill="red" stroke="black" strokeWidth="2.0px" />
 	<text x="595.238298" y="83.790228" fill="white" >+</text>
 	<rect x="395.000000" y="225.000000" width="20" height="20" fill="blue" stroke="white" strokeWidth="1.0px"/>
+	<line x1="501.971954" y1="223.270319" x2="395.000000" y2="225.000000" stroke="black" fill="white" stroke-dasharray="5"/>
+
+	<rect x="395.000000" y="225.000000" width="20" height="20" fill="blue" stroke="white" strokeWidth="1.0px"/>
+	<line x1="182.996523" y1="151.292641" x2="395.000000" y2="225.000000" stroke="black" fill="white" stroke-dasharray="5"/>
 
 </svg>

@@ -16,7 +16,7 @@
 typedef struct novas
 {
     char tipo, cep[20], sw[10], face;
-    double x, y, w, h, area, raio;
+    double x, y, x2, y2,w, h, area, raio;
     int n;
 } structQry;
 
@@ -35,6 +35,16 @@ double getXQRY(Info elemento)
 {
     structQry *info = (structQry *)elemento;
     return info->x;
+}
+
+double getX2QRY(Info elemento)
+{
+    structQry *info = (structQry *)elemento;
+    return info->x2;
+}
+double getY2QRY(Info elemento){
+    structQry *info = (structQry *)elemento;
+    return info->y2;
 }
 
 double getWQRY(Info elemento)
@@ -122,6 +132,18 @@ void criaCirculo(Lista l, double raio, double x, double y)
     circulo->tipo = 'c';
 
     insere(l, circulo);
+}
+
+void criaTracejado(double x, double y, double x2, double y2, Lista lista){
+    structQry *linha = (structQry *)malloc(sizeof(structQry));
+
+    linha->x = x;
+    linha->y = y;
+    linha->x2 = x2;
+    linha->y2 = y2;
+    linha->tipo = 't';
+
+    insere(lista, linha);
 }
 
 void criaLinha(double x, double y, char cep[], Cidade listas)
@@ -834,6 +856,15 @@ void imprimeQry(Lista l, char saida[])
             imprimeQuadradoAzul( def.x, def.y, saida);
         }        
 
+        if (def.tipo == 't'){
+            def.x = getXQRY(elemento);
+            def.y = getYQRY(elemento);
+            def.x2 = getX2QRY(elemento);
+            def.y2 = getY2QRY(elemento);
+            
+            imprimeTracejado(def.x, def.y, def.x2, def.y2, saida);
+        }
+        
 
         node = getNext(node);
     }
@@ -1350,6 +1381,23 @@ void imprimeQuadradoAzul(double x, double y, char saida[]){
     fclose(arq);
 }
 
+void imprimeTracejado(double x, double y, double x2, double y2, char saida[])
+{
+    FILE *arq;
+    arq = fopen(saida, "a");
+
+    if (arq == NULL)
+    {
+        printf("Erro ao abrir SVG!");
+        exit(1);
+    }
+
+    fprintf(arq, "\t<line x1=\"%lf\" y1=\"%lf\" x2=\"%lf\" y2=\"%lf\" stroke=\"black\" fill=\"white\" stroke-dasharray=\"5\"/>\n", x, y, x2, y2);
+
+    fclose(arq);
+}
+
+
 void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num){
 
     No node = getFirst(listaQuadra);
@@ -1378,43 +1426,49 @@ void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num)
 
 }
 
-void soc(Cidade cidade,Lista listaPS, Lista listaQ, Lista listaQRY, int k, char cep[], char face, int num){
+void soc(Cidade cidade,Lista listaPS, Lista listaQ, Lista listaQRY, int k, char cep[], char face, int num, char arqtxt[]){
     No node = getFirst(listaQ), nodePS = getFirst(listaPS);
     Info elemento;
-    int cont = 0, nPostos = 0;
+    int nPostos = 0;
 
     while (nodePS!=NULL){
         nPostos++;
         nodePS = getNext(nodePS);
     }
-    nodePS = getFirst(listaPS);
 
     k++;
 
     while (node != NULL){
         elemento = getInfo(node);
         if (strcmp(getCep(elemento),cep)==0){
+            nodePS = getFirst(listaPS);
             shellSort(getListaPS(cidade), length(listaPS), getXQ(elemento), getYQ(elemento));
-            while (nodePS!=NULL){
-                printf("%lf\n", dist(getXQ(elemento), getYQ(elemento),getXPS(getInfo(nodePS)),getYPS(getInfo(nodePS))));
+            for(int i = 0; i < k; i++){
+                if (i == nPostos){
+                    break;
+                }
+
+                if (face == 'N'){
+                    criaQuadrado(listaQRY, getXQ(elemento)+num, getYQ(elemento) + (getHQ(elemento)-20));    
+                    criaTracejado(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), getXQ(elemento)+num , getYQ(elemento) + (getHQ(elemento)-20), listaQRY);
+                }
+                if (face == 'O'){
+                    criaQuadrado(listaQRY, getXQ(elemento) + (getWQ(elemento) - 20), getYQ(elemento)+num);
+                    criaTracejado(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), getXQ(elemento) + (getWQ(elemento) - 20), getYQ(elemento)+num, listaQRY);
+                }
+                if (face == 'L'){
+                    criaQuadrado(listaQRY, getXQ(elemento), getYQ(elemento)+num);
+                    criaTracejado(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), getXQ(elemento), getYQ(elemento)+num, listaQRY);
+                }
+                if (face == 'S'){
+                    criaQuadrado(listaQRY, getXQ(elemento)+num, getYQ(elemento));
+                    criaTracejado(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), getXQ(elemento)+num, getYQ(elemento), listaQRY);
+                }
                 nodePS = getNext(nodePS);
-            }
-            if (face == 'N'){
-                criaQuadrado(listaQRY, getXQ(elemento)+num, getYQ(elemento) + (getHQ(elemento)-20));        
-            }
-            if (face == 'O'){
-                criaQuadrado(listaQRY, getXQ(elemento) + (getWQ(elemento) - 20), getYQ(elemento)+num);
-            }
-            if (face == 'L'){
-                criaQuadrado(listaQRY, getXQ(elemento), getYQ(elemento)+num);
-            }
-            if (face == 'S'){
-                criaQuadrado(listaQRY, getXQ(elemento)+num, getYQ(elemento));
             }
         }
         node = getNext(node);
     }
-    printf("\n\n");
 
 }
 

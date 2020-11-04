@@ -655,5 +655,18 @@
 	<circle cx="182.996523" cy="151.292641" r="6" fill="red" stroke="black" strokeWidth="2.0px" />
 	<text x="179.996523" y="154.292641" fill="white" >+</text>
 	<rect x="665.000000" y="145.000000" width="20" height="20" fill="blue" stroke="white" strokeWidth="1.0px"/>
+	<line x1="598.238298" y1="80.790228" x2="665.000000" y2="145.000000" stroke="black" fill="white" stroke-dasharray="5"/>
+
+	<rect x="665.000000" y="145.000000" width="20" height="20" fill="blue" stroke="white" strokeWidth="1.0px"/>
+	<line x1="501.971954" y1="223.270319" x2="665.000000" y2="145.000000" stroke="black" fill="white" stroke-dasharray="5"/>
+
+	<rect x="665.000000" y="145.000000" width="20" height="20" fill="blue" stroke="white" strokeWidth="1.0px"/>
+	<line x1="594.125437" y1="323.247425" x2="665.000000" y2="145.000000" stroke="black" fill="white" stroke-dasharray="5"/>
+
+	<rect x="665.000000" y="145.000000" width="20" height="20" fill="blue" stroke="white" strokeWidth="1.0px"/>
+	<line x1="502.373715" y1="466.465796" x2="665.000000" y2="145.000000" stroke="black" fill="white" stroke-dasharray="5"/>
+
+	<rect x="665.000000" y="145.000000" width="20" height="20" fill="blue" stroke="white" strokeWidth="1.0px"/>
+	<line x1="182.996523" y1="151.292641" x2="665.000000" y2="145.000000" stroke="black" fill="white" stroke-dasharray="5"/>
 
 </svg>

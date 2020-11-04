@@ -1,0 +1,285 @@
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+
+crd? sfb03.2
+x: 152.500000 y: 207.500000 Semaforo
+

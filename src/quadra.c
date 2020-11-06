@@ -32,7 +32,6 @@ void imprimeQuadraQRY(double x, double y, double w, double h, char sw[], char sa
         exit(1);
     }
 
-    printf("veio\n");
     fprintf(arq, "\n\t<rect x=\"%lf\" y=\"%lf\" width=\"%lf\" height=\"%lf\" fill=\"beige\" stroke=\"olive\" stroke-width=\"%s\" rx=\"20\"/>\n", x, y, w, h, sw);
 
     fclose(arq);

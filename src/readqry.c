@@ -65,12 +65,12 @@ void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
             if(strcmp("#",def.verifica)==0){
                 fscanf(arq,"%s %lf",def.id, &def.r);
                 verifica = true;
-                dq(cidade, def.id, def.r, verifica, arquivotxt);
+                // dq(cidade, def.id, def.r, verifica, arquivotxt);
             }
             else{
                 fscanf(arq,"%lf",&def.r);
                 verifica = false;
-                dq(cidade, def.verifica, def.r, verifica, arquivotxt);
+                // dq(cidade, def.verifica, def.r, verifica, arquivotxt);
             }
         }
 

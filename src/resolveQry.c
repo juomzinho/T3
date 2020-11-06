@@ -495,257 +495,257 @@ void dq(Cidade listas, char id[], double r, bool verifica, char txtarq[])
     {
         elemento = getInfo(node);
 
-        if (strcmp(getIdHidrante(elemento), id) == 0)
-        {
-            x = getXH(elemento);
-            y = getYH(elemento);
-            Hidrante hidrante = hidranteLista(id,x,y,6,"blue","yellow","1.0px");
-            insertBefore(l,elemento,hidrante);
+    //     if (strcmp(getIdHidrante(elemento), id) == 0)
+    //     {
+    //         x = getXH(elemento);
+    //         y = getYH(elemento);
+    //         Hidrante hidrante = hidranteLista(id,x,y,6,"blue","yellow","1.0px");
+    //         insertBefore(l,elemento,hidrante);
 
-            if (verifica == true){
-                while (aux != NULL)
-                {
-                    elementoq = getInfo(aux);
+    //         if (verifica == true){
+    //             while (aux != NULL)
+    //             {
+    //                 elementoq = getInfo(aux);
 
-                    x1 = getXQ(elementoq);
-                    y1 = getYQ(elementoq);
-                    x2 = getXQ(elementoq) + getWQ(elementoq);
-                    y2 = getYQ(elementoq) + getHQ(elementoq);
+    //                 x1 = getXQ(elementoq);
+    //                 y1 = getYQ(elementoq);
+    //                 x2 = getXQ(elementoq) + getWQ(elementoq);
+    //                 y2 = getYQ(elementoq) + getHQ(elementoq);
 
-                    if (PontoInterno(x1, y1, x, y, r) == true)
-                    {
-                        if (PontoInterno(x1, y2, x, y, r) == true)
-                        {
-                            if (PontoInterno(x2, y1, x, y, r) == true)
-                            {
-                                if (PontoInterno(x2, y2, x, y, r) == true)
-                                {
-                                    setStokeQ("olive",elementoq);
-                                    setFillQ("beige",elementoq);
-                                    setTipoQ("redondo",elementoq);
-                                    fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdHidrante(elemento), getXH(elemento), getYH(elemento), getFillH(elemento), getStrokeH(elemento));
-                                }
-                            }
-                        }
-                    }
-                    if(aux!=NULL){
-                        aux = getNext(aux);
-                    }
-                }
-            }
-            else
-            {
-                while (aux != NULL)
-                {
-                    elementoq = getInfo(aux);
+    //                 if (PontoInterno(x1, y1, x, y, r) == true)
+    //                 {
+    //                     if (PontoInterno(x1, y2, x, y, r) == true)
+    //                     {
+    //                         if (PontoInterno(x2, y1, x, y, r) == true)
+    //                         {
+    //                             if (PontoInterno(x2, y2, x, y, r) == true)
+    //                             {
+    //                                 setStokeQ("olive",elementoq);
+    //                                 setFillQ("beige",elementoq);
+    //                                 setTipoQ("redondo",elementoq);
+    //                                 fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdHidrante(elemento), getXH(elemento), getYH(elemento), getFillH(elemento), getStrokeH(elemento));
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+    //                 if(aux!=NULL){
+    //                     aux = getNext(aux);
+    //                 }
+    //             }
+    //         }
+    //         else
+    //         {
+    //             while (aux != NULL)
+    //             {
+    //                 elementoq = getInfo(aux);
 
-                    x1 = getXQ(elementoq);
-                    y1 = getYQ(elementoq);
-                    x2 = getXQ(elementoq) + getWQ(elementoq);
-                    y2 = getYQ(elementoq) + getHQ(elementoq);
+    //                 x1 = getXQ(elementoq);
+    //                 y1 = getYQ(elementoq);
+    //                 x2 = getXQ(elementoq) + getWQ(elementoq);
+    //                 y2 = getYQ(elementoq) + getHQ(elementoq);
 
-                    if (PontoInterno(x1, y1, x, y, r) == true)
-                    {
-                        if (PontoInterno(x1, y2, x, y, r) == true)
-                        {
-                            if (PontoInterno(x2, y1, x, y, r) == true)
-                            {
-                                if (PontoInterno(x2, y2, x, y, r) == true)
-                                {
-                                    aux = getPrevious(aux);
-                                    fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdHidrante(elemento), getXH(elemento), getYH(elemento), getFillH(elemento), getStrokeH(elemento));
-                                    removeElemento(listaq, elementoq);
+    //                 if (PontoInterno(x1, y1, x, y, r) == true)
+    //                 {
+    //                     if (PontoInterno(x1, y2, x, y, r) == true)
+    //                     {
+    //                         if (PontoInterno(x2, y1, x, y, r) == true)
+    //                         {
+    //                             if (PontoInterno(x2, y2, x, y, r) == true)
+    //                             {
+    //                                 aux = getPrevious(aux);
+    //                                 fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdHidrante(elemento), getXH(elemento), getYH(elemento), getFillH(elemento), getStrokeH(elemento));
+    //                                 removeElemento(listaq, elementoq);
                                     
-                                }
-                            }
-                        }
-                    }
-                    if(aux!=NULL){
-                        aux = getNext(aux);
-                    }
-                }
-            }
+    //                             }
+    //                         }
+    //                     }
+    //                 }
+    //                 if(aux!=NULL){
+    //                     aux = getNext(aux);
+    //                 }
+    //             }
+    //         }
 
-            v = true;
-            break;
-        }
+    //         v = true;
+    //         break;
+    //     }
 
-        node = getNext(node);
-    }
+    //     node = getNext(node);
+    // }
 
-    if (v == false)
-    {
-        l = getListaRadio(listas);
-        node = getFirst(l);
+    // if (v == false)
+    // {
+    //     l = getListaRadio(listas);
+    //     node = getFirst(l);
 
-        while (node != NULL)
-        {
-            elemento = getInfo(node);
+    //     while (node != NULL)
+    //     {
+    //         elemento = getInfo(node);
 
-            if (strcmp(getIdR(elemento), id) == 0)
-            {
-                x = getXR(elemento);
-                y = getYR(elemento);
-                Radio radio = radioLista(id,x,y,8,"blue","yellow","1.0px");
-                insertBefore(l,elemento,radio);
+    //         if (strcmp(getIdR(elemento), id) == 0)
+    //         {
+    //             x = getXR(elemento);
+    //             y = getYR(elemento);
+    //             Radio radio = radioLista(id,x,y,8,"blue","yellow","1.0px");
+    //             insertBefore(l,elemento,radio);
 
-                if (verifica == true)
-                {
-                    while (aux != NULL)
-                    {
-                        elementoq = getInfo(aux);
+    //             if (verifica == true)
+    //             {
+    //                 while (aux != NULL)
+    //                 {
+    //                     elementoq = getInfo(aux);
 
-                        x1 = getXQ(elementoq);
-                        y1 = getYQ(elementoq);
-                        x2 = getXQ(elementoq) + getWQ(elementoq);
-                        y2 = getYQ(elementoq) + getHQ(elementoq);
+    //                     x1 = getXQ(elementoq);
+    //                     y1 = getYQ(elementoq);
+    //                     x2 = getXQ(elementoq) + getWQ(elementoq);
+    //                     y2 = getYQ(elementoq) + getHQ(elementoq);
 
-                        if (PontoInterno(x1, y1, x, y, r) == true)
-                        {
-                            if (PontoInterno(x1, y2, x, y, r) == true)
-                            {
-                                if (PontoInterno(x2, y1, x, y, r) == true)
-                                {
-                                    if (PontoInterno(x2, y2, x, y, r) == true)
-                                    {
-                                        setStokeQ("olive",elementoq);
-                                        setFillQ("beige",elementoq);
-                                        setTipoQ("redondo",elementoq);
-                                        fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdR(elemento), getXR(elemento), getYR(elemento), getFillR(elemento), getStokeR(elemento));
-                                    }
-                                }
-                            }
-                        }
-                        if(aux!=NULL){
-                            aux = getNext(aux);
-                        }
-                    }
-                }
-                else
-                {
-                    while (aux != NULL)
-                    {
-                        elementoq = getInfo(aux);
+    //                     if (PontoInterno(x1, y1, x, y, r) == true)
+    //                     {
+    //                         if (PontoInterno(x1, y2, x, y, r) == true)
+    //                         {
+    //                             if (PontoInterno(x2, y1, x, y, r) == true)
+    //                             {
+    //                                 if (PontoInterno(x2, y2, x, y, r) == true)
+    //                                 {
+    //                                     setStokeQ("olive",elementoq);
+    //                                     setFillQ("beige",elementoq);
+    //                                     setTipoQ("redondo",elementoq);
+    //                                     fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdR(elemento), getXR(elemento), getYR(elemento), getFillR(elemento), getStokeR(elemento));
+    //                                 }
+    //                             }
+    //                         }
+    //                     }
+    //                     if(aux!=NULL){
+    //                         aux = getNext(aux);
+    //                     }
+    //                 }
+    //             }
+    //             else
+    //             {
+    //                 while (aux != NULL)
+    //                 {
+    //                     elementoq = getInfo(aux);
 
-                        x1 = getXQ(elementoq);
-                        y1 = getYQ(elementoq);
-                        x2 = getXQ(elementoq) + getWQ(elementoq);
-                        y2 = getYQ(elementoq) + getHQ(elementoq);
+    //                     x1 = getXQ(elementoq);
+    //                     y1 = getYQ(elementoq);
+    //                     x2 = getXQ(elementoq) + getWQ(elementoq);
+    //                     y2 = getYQ(elementoq) + getHQ(elementoq);
 
-                        if (PontoInterno(x1, y1, x, y, r) == true)
-                        {
-                            if (PontoInterno(x1, y2, x, y, r) == true)
-                            {
-                                if (PontoInterno(x2, y1, x, y, r) == true)
-                                {
-                                    if (PontoInterno(x2, y2, x, y, r) == true)
-                                    {
-                                        aux = getPrevious(aux);
-                                        fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdR(elemento), getXR(elemento), getYR(elemento), getFillR(elemento), getStokeR(elemento));
-                                        removeElemento(listaq, elementoq);
-                                    }
-                                }
-                            }
-                        }
-                        if(aux!=NULL){
-                            aux = getNext(aux);
-                        }
-                    }
-                }
-                v = true;
-                break;
-            }
+    //                     if (PontoInterno(x1, y1, x, y, r) == true)
+    //                     {
+    //                         if (PontoInterno(x1, y2, x, y, r) == true)
+    //                         {
+    //                             if (PontoInterno(x2, y1, x, y, r) == true)
+    //                             {
+    //                                 if (PontoInterno(x2, y2, x, y, r) == true)
+    //                                 {
+    //                                     aux = getPrevious(aux);
+    //                                     fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdR(elemento), getXR(elemento), getYR(elemento), getFillR(elemento), getStokeR(elemento));
+    //                                     removeElemento(listaq, elementoq);
+    //                                 }
+    //                             }
+    //                         }
+    //                     }
+    //                     if(aux!=NULL){
+    //                         aux = getNext(aux);
+    //                     }
+    //                 }
+    //             }
+    //             v = true;
+    //             break;
+    //         }
 
-            node = getNext(node);
-        }
-    }
-    if (v == false)
-    {
-        l = getListaSemaforo(listas);
-        node = getFirst(l);
+    //         node = getNext(node);
+    //     }
+    // }
+    // if (v == false)
+    // {
+    //     l = getListaSemaforo(listas);
+    //     node = getFirst(l);
 
-        while (node != NULL)
-        {
-            elemento = getInfo(node);
+    //     while (node != NULL)
+    //     {
+    //         elemento = getInfo(node);
 
-            if (strcmp(getIdS(elemento), id) == 0)
-            {
-                x = getXS(elemento);
-                y = getYS(elemento);
-                Semaforo semaforo = semaforoLista(id,x,y,6,12,"blue","yellow","1.0px");
-                insertBefore(l,elemento,semaforo);
+    //         if (strcmp(getIdS(elemento), id) == 0)
+    //         {
+    //             x = getXS(elemento);
+    //             y = getYS(elemento);
+    //             Semaforo semaforo = semaforoLista(id,x,y,6,12,"blue","yellow","1.0px");
+    //             insertBefore(l,elemento,semaforo);
 
-                if (verifica == true)
-                {
-                    while (aux != NULL)
-                    {
-                        elementoq = getInfo(aux);
+    //             if (verifica == true)
+    //             {
+    //                 while (aux != NULL)
+    //                 {
+    //                     elementoq = getInfo(aux);
 
-                        x1 = getXQ(elementoq);
-                        y1 = getYQ(elementoq);
-                        x2 = getXQ(elementoq) + getWQ(elementoq);
-                        y2 = getYQ(elementoq) + getHQ(elementoq);
+    //                     x1 = getXQ(elementoq);
+    //                     y1 = getYQ(elementoq);
+    //                     x2 = getXQ(elementoq) + getWQ(elementoq);
+    //                     y2 = getYQ(elementoq) + getHQ(elementoq);
 
-                        if (PontoInterno(x1, y1, x, y, r) == true)
-                        {
-                            if (PontoInterno(x1, y2, x, y, r) == true)
-                            {
-                                if (PontoInterno(x2, y1, x, y, r) == true)
-                                {
-                                    if (PontoInterno(x2, y2, x, y, r) == true)
-                                    {
-                                        setStokeQ("olive",elementoq);
-                                        setFillQ("beige",elementoq);
-                                        setTipoQ("redondo",elementoq);
-                                        fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdS(elemento), getXS(elemento), getYS(elemento), getFillS(elemento), getStrokeS(elemento));
-                                    }
-                                }
-                            }
-                        }
-                        if(aux!=NULL){
-                            aux = getNext(aux);
-                        }
-                    }
-                }
-                else
-                {
-                    while (aux != NULL)
-                    {
-                        elementoq = getInfo(aux);
+    //                     if (PontoInterno(x1, y1, x, y, r) == true)
+    //                     {
+    //                         if (PontoInterno(x1, y2, x, y, r) == true)
+    //                         {
+    //                             if (PontoInterno(x2, y1, x, y, r) == true)
+    //                             {
+    //                                 if (PontoInterno(x2, y2, x, y, r) == true)
+    //                                 {
+    //                                     setStokeQ("olive",elementoq);
+    //                                     setFillQ("beige",elementoq);
+    //                                     setTipoQ("redondo",elementoq);
+    //                                     fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdS(elemento), getXS(elemento), getYS(elemento), getFillS(elemento), getStrokeS(elemento));
+    //                                 }
+    //                             }
+    //                         }
+    //                     }
+    //                     if(aux!=NULL){
+    //                         aux = getNext(aux);
+    //                     }
+    //                 }
+    //             }
+    //             else
+    //             {
+    //                 while (aux != NULL)
+    //                 {
+    //                     elementoq = getInfo(aux);
 
-                        x1 = getXQ(elementoq);
-                        y1 = getYQ(elementoq);
-                        x2 = getXQ(elementoq) + getWQ(elementoq);
-                        y2 = getYQ(elementoq) + getHQ(elementoq);
+    //                     x1 = getXQ(elementoq);
+    //                     y1 = getYQ(elementoq);
+    //                     x2 = getXQ(elementoq) + getWQ(elementoq);
+    //                     y2 = getYQ(elementoq) + getHQ(elementoq);
 
-                        if (PontoInterno(x1, y1, x, y, r) == true)
-                        {
-                            if (PontoInterno(x1, y2, x, y, r) == true)
-                            {
-                                if (PontoInterno(x2, y1, x, y, r) == true)
-                                {
-                                    if (PontoInterno(x2, y2, x, y, r) == true)
-                                    {
-                                        aux = getPrevious(aux);
-                                        fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdS(elemento), getXS(elemento), getYS(elemento), getFillS(elemento), getStrokeS(elemento));
-                                        removeElemento(listaq, elementoq);
+    //                     if (PontoInterno(x1, y1, x, y, r) == true)
+    //                     {
+    //                         if (PontoInterno(x1, y2, x, y, r) == true)
+    //                         {
+    //                             if (PontoInterno(x2, y1, x, y, r) == true)
+    //                             {
+    //                                 if (PontoInterno(x2, y2, x, y, r) == true)
+    //                                 {
+    //                                     aux = getPrevious(aux);
+    //                                     fprintf(txt, "Cep: %s Id: %s X: %lf Y: %lf Fill: %s Stroke: %s\n\n", getCep(elementoq), getIdS(elemento), getXS(elemento), getYS(elemento), getFillS(elemento), getStrokeS(elemento));
+    //                                     removeElemento(listaq, elementoq);
                                         
-                                    }
-                                }
-                            }
-                        }
-                        if(aux!=NULL){
-                            aux = getNext(aux);
-                        }
-                    }
-                }
+    //                                 }
+    //                             }
+    //                         }
+    //                     }
+    //                     if(aux!=NULL){
+    //                         aux = getNext(aux);
+    //                     }
+    //                 }
+    //             }
 
-                v = true;
-                break;
-            }
+    //             v = true;
+    //             break;
+    //         }
 
-            node = getNext(node);
-        }
+    //         node = getNext(node);
+    //     }
     }
 
     criaCirculo(getListaQRY(listas), r, x, y);
@@ -1349,7 +1349,7 @@ void delfplus(int j, int k, Lista lista, char txt[]){
 void imprimeQuadrado(double x, double y, int n, char saida[]){
     double textX, textY, w = 20, h = 20;
 
-    textX = x + 7;
+    textX = x + 5;
 
     textY = y + 13;
 
@@ -1436,18 +1436,25 @@ void soc(Cidade cidade,Lista listaPS, Lista listaQ, Lista listaQRY, int k, char 
         nodePS = getNext(nodePS);
     }
 
-    k++;
+    FILE *txt;
+    txt = fopen(arqtxt, "a");
+    if(txt ==NULL){
+        printf("erro ao abrir svg!\n");
+        exit(0);
+    }
+
+    printf("N POSTOS %d \n", nPostos);
 
     while (node != NULL){
         elemento = getInfo(node);
         if (strcmp(getCep(elemento),cep)==0){
             nodePS = getFirst(listaPS);
             shellSort(getListaPS(cidade), length(listaPS), getXQ(elemento), getYQ(elemento));
-            for(int i = 0; i < k; i++){
+            if (nPostos!=0){
+                for(int i = 0; i < k; i++){
                 if (i == nPostos){
                     break;
                 }
-
                 if (face == 'N'){
                     criaQuadrado(listaQRY, getXQ(elemento)+num, getYQ(elemento) + (getHQ(elemento)-20));    
                     criaTracejado(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), getXQ(elemento)+num , getYQ(elemento) + (getHQ(elemento)-20), listaQRY);
@@ -1464,11 +1471,17 @@ void soc(Cidade cidade,Lista listaPS, Lista listaQ, Lista listaQRY, int k, char 
                     criaQuadrado(listaQRY, getXQ(elemento)+num, getYQ(elemento));
                     criaTracejado(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), getXQ(elemento)+num, getYQ(elemento), listaQRY);
                 }
+                fprintf(txt,"\tx: %lf   y: %lf\n", getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)));
                 nodePS = getNext(nodePS);
             }
+            }
+            
         }
+        
         node = getNext(node);
     }
+    fprintf(txt,"\n");
+    fclose(txt);
 
 }
 

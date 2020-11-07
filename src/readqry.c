@@ -11,6 +11,8 @@
 #include "formas.h"
 #include "radio.h"
 #include "posto.h"
+#include "covid.h"
+#include "imprimeQRY.h"
 
 struct Default{
     double x, y, w, h, r;
@@ -65,28 +67,29 @@ void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
             if(strcmp("#",def.verifica)==0){
                 fscanf(arq,"%s %lf",def.id, &def.r);
                 verifica = true;
-                // dq(cidade, def.id, def.r, verifica, arquivotxt);
+                dq(cidade, def.id, def.r, verifica, arquivotxt);
             }
             else{
                 fscanf(arq,"%lf",&def.r);
                 verifica = false;
-                // dq(cidade, def.verifica, def.r, verifica, arquivotxt);
+                dq(cidade, def.verifica, def.r, verifica, arquivotxt);
             }
         }
 
         if(strcmp("cv",comando)==0){
             fscanf(arq,"%d %s %c %d", &def.n, def.cep, &def.face, &def.num);
             cv(getListaQuadra(cidade), getListaQRY(cidade), def.n, def.cep, def.face, def.num);
+            criaPontoCovid(getListaCovid(cidade), getListaQuadra(cidade), def.n, def.cep, def.face, def.num);
         }
 
         if(strcmp("soc",comando)==0){
             fscanf(arq,"%d %s %c %d", &def.n, def.cep, &def.face, &def.num);
-            soc(cidade, getListaPS(cidade), getListaQuadra(cidade), getListaQRY(cidade), def.n, def.cep, def.face, def.num, arquivotxt);
+            soc(cidade, def.n, def.cep, def.face, def.num, arquivotxt);
         }
 
         if(strcmp("ci",comando)==0){
             fscanf(arq,"%lf %lf %lf", &def.x, &def.y, &def.r);
-            ci(getListaQRY(cidade),def.x,def.y,def.r);
+            ci(cidade,def.x, def.y, def.r);
         }
 
         /* QRY FORMAS */

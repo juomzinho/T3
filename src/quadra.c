@@ -9,7 +9,7 @@ typedef struct quadra{
     double x, y, w, h;
 } QStuct;
 
-void imprimeQuadra(char cep[], double x, double y, double w, double h, char fill[], char stroke[], char strokeWidth[], char saida[]){
+void imprimeQuadra(double x, double y, double w, double h, char fill[], char stroke[], char strokeWidth[], char saida[]){
     FILE *arq;
     arq = fopen(saida,"a");
     if (arq==NULL){
@@ -63,7 +63,6 @@ double getXQ(Quadra info){
     QStuct* quadra = (QStuct*) info;
     return quadra->x;
 }
-
 
 char *getTipoQ(Quadra elemento){
     QStuct* quadra = (QStuct*) elemento;
@@ -138,11 +137,15 @@ void imprimeListaQ(Lista l, char saida[]){
         strcpy(def.fill,getFillQ(elemento));
         strcpy(def.strokeWidth,getSWQ(elemento));
 
-        if (strcmp(def.v,"normal")==0){
-            imprimeQuadra(def.cep, def.x, def.y, def.w, def.h, def.fill, def.stroke, def.strokeWidth,saida);
-        }else{
+
+
+        if ((strcmp(def.v,"redondo")==0))
+        {
             imprimeQuadraQRY(def.x, def.y, def.w, def.h, def.strokeWidth,saida);
+        }else{  
+            imprimeQuadra(def.x, def.y, def.w, def.h, def.fill, def.stroke, def.strokeWidth,saida);
         }
+        
         
         
         node = getNext(node);

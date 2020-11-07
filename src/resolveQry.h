@@ -2,6 +2,30 @@
 #define _RESOLVEQRY_H_
 #include "cidade.h"
 
+double getYQRY(Info elemento);
+
+int getNQRY(Info elemento);
+
+double getXQRY(Info elemento);
+
+double getX2QRY(Info elemento);
+
+double getY2QRY(Info elemento);
+
+double getWQRY(Info elemento);
+
+double getHQRY(Info elemento);
+
+double getAreaQRY(Info elemento);
+
+double getRaioQRY(Info elemento);
+
+char *getCepQRY(Info elemento);
+
+char getTipoQRY(Info elemento);
+
+char *getSWQRY(Info elemento);
+
 /* esta funcao aloca memoria e armazena os dados de um circulo
 ela recebe dos dados do circulo e a lista por parametro 
 no fim ela insere o circulo na lista*/
@@ -76,49 +100,6 @@ bool PontoInterno(double x1, double y1, double x2, double y2, double raio);
 ele rebece os dados do ponto e do retangulo por paremetro*/
 bool PontoInternoRet(double px, double py, double x, double y, double h, double w);
 
-/* esta funcao percorre a lista de qrys,
-le as informacoes de cada elemento na lista,
-e chama a funcao para imprimir o respectivo elemento passando
-essas informações por parametro
-ela recebe a lista a ser percorria e o nome do arquivo svg
-junto ao diretorio de saida*/
-void imprimeQry(Lista l, char saida[]);
-
-/* esta funcao imprime uma linha e o cep no arquivo svg
-ela recebe como parametro os dados do linha e o cep
-e o nome do arquivo svg junto ao diretório de saida*/
-void imprimeLinha(double x, double y, char cep[], char saida[]);
-
-/* esta funcao imprime uma linha e a area no arquivo svg
-ela recebe como parametro os dados do linha e a area
-e o nome do arquivo svg junto ao diretório de saida*/
-void imprimeLinhaD(double x, double y, double area, char saida[]);
-
-/* esta funcao imprime um circulo no arquivo svg
-ela recebe como parametro os dados do circulo
-e o nome do arquivo svg junto ao diretório de saida*/
-void imprimeCirculoQry(double x, double y, double raio, char saida[]);
-
-/* esta funcao imprime uma quadra com as bordas arredondadas no arquivo svg
-ela recebe como parametro os dados do quadra
-e o nome do arquivo svg junto ao diretório de saida*/
-void imprimeQuadraQRY(double x, double y, double w, double h, char sw[], char saida[]);
-
-/* esta funcao imprime uma retangulo com as borda tracejada no arquivo svg
-ela recebe como parametro os dados do retangulo
-e o nome do arquivo svg junto ao diretório de saida*/
-void imprimeRetT(double x, double y, double w, double h, char sw[], char saida[]);
-
-/* esta funcao imprime a area do cep no arquivo svg
-ela recebe como parametro os dados da area
-e o nome do arquivo svg junto ao diretório de saida*/
-void imprimeArea(double x, double y,double w, double h,double area, char saida[]);
-
-/* esta funcao imprime uma retangulo com as borda cheia no arquivo svg
-ela recebe como parametro os dados do retangulo
-e o nome do arquivo svg junto ao diretório de saida*/
-void imprimeRet(double x, double y, double w, double h, char sw[], char saida[]);
-
 /* esta funcao resolve o comando o?
 ela recebe como parametro a lista, os dados lidos do comando o?
 e o nome arquivo do txt junto ao seu diretório*/
@@ -148,19 +129,5 @@ void delf(int j, Lista lista, char txt[]);
 ela recebe como parametro a lista, os dados lidos do comando delf*
 e o nome arquivo do txt junto ao seu diretório*/
 void delfplus(int j, int k, Lista lista, char txt[]);
-
-void criaQuadradoeN(Lista lista, double x, double y, int n);
-
-void imprimeQuadrado(double x, double y, int n, char saida[]);
-
-void imprimeQuadradoAzul(double x, double y, char saida[]);
-
-void imprimeTracejado(double x, double y, double x2, double y2, char saida[]);
-
-void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num);
-
-void soc(Cidade cidade, Lista listaPS,  Lista listaQ, Lista listaQRY, int k, char cep[], char face, int num, char arqtxt[]);
-
-void ci(Lista listaQRY,double x,double y,double r);
 
 #endif

@@ -174,61 +174,94 @@ void removeElemento(Lista l, Info info){
     }  
 }
 
+void alterarAtras(NoStruct *node, int h, double x, double y){
+    int cont = 0;
+    NoStruct* aux = node, aux2;
+
+    while (cont != h && aux != NULL){
+        aux = getPrevious(aux);
+        cont++;
+    }
+    if (aux == NULL){
+        return;
+    }
+    if (dist(x, y, getXPS(getInfo(node)), getYPS(getInfo(node))) < dist(x, y, getXPS(getInfo(aux)), getYPS(getInfo(aux)))){
+        aux2.info = node->info;
+        node->info = aux->info;
+        aux->info = aux2.info;
+        alterarAtras(aux, h, x ,y);
+    }else{
+        return;
+    }
+}
+
 
 void shellSort(Lista lista, int size, double x, double y){
-	int h = size, i, j, k = 0;
-    NoStruct *node, *aux, *aux2, *aux3, *aux4, aux5;
-    ListaStruct* l = (ListaStruct*) lista;
-
+	int h = size/2, cont;
+    NoStruct *node, *aux, aux2;  
     
 
 	while (h > 0){
 
-		for (i = h; i < size; i++){
-			j = i - h;
-            
-            aux = getFirst(lista);
-            for(k = 0; k < i; k++){
-               aux = getNext(aux);
-            }
+        aux = getFirst(lista); 
+        node = getFirst(lista);
 
-            aux5.info = aux->info;
-
-            node = getFirst(lista);
-            for(k = 0; k < j; k++){
-                node = getNext(node);
-            }
-
-            while (j>=0 && dist(x, y, getXPS(getInfo(aux)), getYPS(getInfo(aux))) < dist(x, y, getXPS(getInfo(node)), getYPS(getInfo(node)))){
-                aux2 = getFirst(lista);
-                for(k = 0; k < j + h; k++){
-                    aux2 = getNext(aux2);
-                }
-                
-                aux3 = getFirst(lista);
-                for (k = 0; k < j; k++){
-                    aux3 = getNext(aux3);
-                }
-
-                aux2->info = aux3->info;
-                j -= h;
-                
-
-                node = getFirst(lista);
-                for(k = 0; k < j; k++){
-                    node = getNext(node);
-                }
-            }
-            aux4 = getFirst(lista);
-            for (k = 0; k < j + h; k++){
-                aux4 = getNext(aux4);
-            }
-            aux4->info = aux5.info;
-            
+        cont = 0;
+        while (cont != h){
+            aux = getNext(aux);
+            cont++;
         }
+        
+
+        while (aux!=NULL){
+            if (dist(x, y, getXPS(getInfo(aux)), getYPS(getInfo(aux))) < dist(x, y, getXPS(getInfo(node)), getYPS(getInfo(node)))){
+                aux2.info = node->info;
+                node->info = aux->info;
+                aux->info = aux2.info;
+           
+                alterarAtras(node, h, x, y);
+            }
+            aux = getNext(aux);
+            node = getNext(node);
+        }
+
         h /= 2;
 
 	}
 	
 }
 
+int particiona(Lista lista, int inicio, int size, double x, double y){
+    NoStruct *pivo = getLast(lista), *aux, aux2;
+    int i = inicio;
+
+    for (int j = i; j < size; j++){
+        aux = getFirst(lista);
+        for (int k = 0; k < j; k++){
+            aux = getNext(aux);
+        }
+
+        if (dist(x, y, getXPS(getInfo(pivo)),getYPS(getInfo(pivo))) >=  dist(x, y, getXPS(getInfo(aux)),getYPS(getInfo(aux)))){
+            aux2.info = pivo->info;
+            pivo->info = aux->info;
+            aux->info = aux2.info;
+            i = i + 1;
+        }
+    }
+    
+    return i;
+}
+
+void quickSort(Lista lista, double x, double y, int inicio, int size){
+    int p;
+    size--;
+    inicio =0;
+
+
+    if (size > inicio){
+        p = particiona(lista, inicio, size, x, y);
+        quickSort(lista, x, y, inicio, p-1);
+        quickSort(lista, x, y, p + 1, size);
+    }    
+    
+}

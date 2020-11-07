@@ -42,8 +42,6 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
     struct corDef ch, cs, cq, cr;
     struct SW sw;
     struct formas forma;
-    size_t len = 32;
-    char *texto;
     Hidrante hidrante;
     Quadra quadra;
     Semaforo semaforo;
@@ -56,8 +54,6 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
     nx.nq = 1000;
     nx.nr = 1000;
     nx.ns = 1000;
-
-    texto = malloc(len);
 
     FILE *arq;
     arq = fopen(geo,"r");
@@ -109,7 +105,7 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
             if(strcmp("q",comando)==0){
                 if (cont.nq<nx.nq){
                     fscanf(arq,"%s %lf %lf %lf %lf",def.cep, &def.x, &def.y, &def.w, &def.h);
-                    imprimeQuadra(def.cep, def.x, def.y, def.w, def.h, cq.cfill, cq.cstrk, cq.sw, saida);
+                    imprimeQuadra( def.x, def.y, def.w, def.h, cq.cfill, cq.cstrk, cq.sw, saida);
                     quadra = quadraLista(def.cep, def.x, def.y, def.w, def.h,"normal" ,cq.cfill, cq.cstrk, cq.sw);
                     insere(getListaQuadra(cidade),quadra);
                     cont.nq++;
@@ -175,8 +171,7 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
             }
             if(strcmp("t",comando)==0){
                 if(cont.i<nx.i){
-                    fscanf(arq,"%d %lf %lf %s %s",&forma.id, &forma.x, &forma.y, forma.corb, forma.corp);
-                    getline(&texto,&len,arq);
+                    fscanf(arq,"%d %lf %lf %s %s %s",&forma.id, &forma.x, &forma.y, forma.corb, forma.corp, forma.text);
                     imprimeTexto(forma.x, forma.y, forma.corb, forma.corp, forma.text, saida);
                     crt = textoLista(forma.id, forma.x, forma.y, forma.corb, forma.corp, forma.text);
                     insere(getListaFormas(cidade),crt);
@@ -188,5 +183,4 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
     
         
     fecharSvg(saida);
-    free(texto);
 }

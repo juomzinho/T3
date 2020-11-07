@@ -7,7 +7,7 @@ typedef void* Quadra;
 /* esta funcao imprime uma quadra no arquivo svg
 ela recebe como parametro os dados da quadra
 e o nome do arquivo svg junto ao diretório de saida*/
-void imprimeQuadra(char cep[], double x, double y, double w, double h, char fill[], char stroke[], char strokeWidth[], char saida[]);
+void imprimeQuadra(double x, double y, double w, double h, char fill[], char stroke[], char strokeWidth[], char saida[]);
 
 /* esta funcao aloca espaço na memoria e armazena os dados da quadra
 e retorna o elemento criado*/

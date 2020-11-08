@@ -22,6 +22,11 @@ typedef struct cvStruct{
     int n;
 } CovidStruct;
 
+typedef struct envStruct{
+    double x, y;
+}EnvoltoriaStruct;
+
+
 int getNCovid(Info elemento){
     CovidStruct *covid = (CovidStruct*) elemento;
     return covid->n;
@@ -37,6 +42,25 @@ double getYCovid(Info elemento){
     return covid->y;
 }
 
+double getXEnvoltoria(Info elemento){
+    EnvoltoriaStruct *covid = (EnvoltoriaStruct*) elemento;
+    return covid->x;
+}
+
+double getYEnvoltoria(Info elemento){
+    EnvoltoriaStruct *covid = (EnvoltoriaStruct*) elemento;
+    return covid->y;
+}
+
+void criaEnvoltoria(double x, double y, Lista lista){
+    EnvoltoriaStruct *envolt = (EnvoltoriaStruct* ) malloc (sizeof(EnvoltoriaStruct));
+
+    envolt->x = x;
+    envolt->y = y;
+
+    insere(lista, envolt);
+
+}
 
 void criaTracejado(double x, double y, double x2, double y2, Lista lista){
     structQry *linha = (structQry *)malloc(sizeof(structQry));
@@ -223,6 +247,8 @@ void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]){
         nodePS = getNext(nodePS);
     }
 
+    printf("%lf %lf %lf %lf %lf\n", cidadeX(cidade), cidadeY(cidade), cidadeW(cidade), cidadeH(cidade), cidadeD(cidade));
+
     FILE *txt;
     txt = fopen(arqtxt, "a");
     if(txt ==NULL){
@@ -319,4 +345,66 @@ void envoltoria(double x, double y, double raio, Lista listaCovid){
     
     // printf("%d\n", NCasosNoCirc);
 
+}
+
+double areaConvexa(Lista lista){
+    double area = 0;
+    No *aux;
+
+    for (int i = 0; i < length(lista) - 1; i++){
+        aux = getFirst(lista);
+        for (int k = 0; k < i; k++){
+            aux = getNext(aux); 
+        }    
+
+        area += (getXEnvoltoria(aux) * getYEnvoltoria(getNext(aux)) - getXEnvoltoria(getNext(aux)) * getYEnvoltoria(aux));
+    }
+    
+    area /= 2;
+
+    return area;
+
+}
+
+double centroideX(Lista lista){
+    double cx = 0;
+    No *aux;
+
+    for(int i = 0; i < length(lista) - 1; i++){
+        aux = getFirst(lista);
+        for (int k = 0; k < i; k++){
+            aux = getNext(aux); 
+        }        
+        
+        cx += ((getXEnvoltoria(aux) + getXEnvoltoria(getNext(aux))) * (getXEnvoltoria(aux) * getYEnvoltoria(getNext(aux)) - getXEnvoltoria(getNext(aux)) * getYEnvoltoria(aux)));        
+    }
+}
+
+double centroideY(Lista lista){
+    double cy = 0;
+    No *aux, *aux2;
+
+    for(int i = 0; i < length(lista); i++){
+
+        if(i == length(lista)-1){
+            aux = getFirst(lista);
+            for (int k = 0; k < i; k++){
+                aux = getNext(aux);
+            }
+            aux2 = getFirst(lista);
+
+            cy += ((getXEnvoltoria(aux) + getXEnvoltoria(aux2)) * (getXEnvoltoria(aux) * getYEnvoltoria(aux2) - getXEnvoltoria(aux2)* getYEnvoltoria(aux)));
+        }else{
+            aux = getFirst(lista);
+            for (int k = 0; k < i; k++){
+                aux = getNext(aux);
+            }
+            aux2 = getFirst(lista);
+
+            cy += ((getXEnvoltoria(aux) + getXEnvoltoria(getNext(aux))) * (getXEnvoltoria(aux) * getYEnvoltoria(getNext(aux)) - getXEnvoltoria(getNext(aux))* getYEnvoltoria(aux)));
+        }
+        
+    }
+
+    return cy;
 }

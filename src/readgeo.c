@@ -148,6 +148,7 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
 
             if(strcmp("dd",comando)==0){
                 fscanf(arq,"%lf %lf %lf %lf %lf", &def.x, &def.y, &def.w, &def.h, &def.d);
+                DDCidade(def.x, def.y, def.w, def. h, def.d, cidade);
             }
 
             /* ADICONANDO FORMAS */

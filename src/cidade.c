@@ -13,7 +13,8 @@ typedef struct cid{
     Lista listaqry;
     Lista listaPS;
     Lista listaCovid;
-    Lista listaConvex;
+    Lista listaEnvoltoria;
+    double x, y, w, h, d;
 } CidadeStruct;
 
 Cidade iniciaCidade(){
@@ -27,7 +28,7 @@ Cidade iniciaCidade(){
     list->listaH = create();
     list->listaqry = create();
     list->listaPS = create();
-    list->listaConvex = create();
+    list->listaEnvoltoria = create();
     list->listaCovid = create();
 
     return list;
@@ -68,14 +69,49 @@ Lista getListaPS(Cidade listas){
     return l->listaPS;
 }
 
-Lista getListaConvexa(Cidade listas){
+Lista getListaEnvoltoria(Cidade listas){
     CidadeStruct* l = (CidadeStruct*) listas;
-    return l->listaConvex;
+    return l->listaEnvoltoria;
 }
 
 Lista getListaCovid(Cidade listas){
     CidadeStruct* l = (CidadeStruct*) listas;
     return l->listaCovid;
+}
+
+double cidadeX(Cidade listas){
+    CidadeStruct* l = (CidadeStruct*) listas;
+    return l->x;
+}
+
+double cidadeY(Cidade listas){
+    CidadeStruct* l = (CidadeStruct*) listas;
+    return l->y;
+}
+
+double cidadeW(Cidade listas){
+    CidadeStruct* l = (CidadeStruct*) listas;
+    return l->w;
+}
+
+double cidadeH(Cidade listas){
+    CidadeStruct* l = (CidadeStruct*) listas;
+    return l->h;
+}
+
+double cidadeD(Cidade listas){
+    CidadeStruct* l = (CidadeStruct*) listas;
+    return l->d;
+}
+
+void DDCidade(double x, double y, double w, double h, double d, Cidade cidade){
+    CidadeStruct* city = (CidadeStruct*) cidade;
+
+    city->x = x;
+    city->y = y;
+    city->w = w;
+    city->h = h;
+    city->d = d;
 }
 
 void removeListas(Cidade cidade){
@@ -88,7 +124,7 @@ void removeListas(Cidade cidade){
     desalocaLista(list->listaQ);
     desalocaLista(list->listaqry);
     desalocaLista(list->listaPS);
-    desalocaLista(list->listaConvex);
+    desalocaLista(list->listaEnvoltoria);
     desalocaLista(list->listaCovid);
 
     free(list->listaF);
@@ -98,7 +134,7 @@ void removeListas(Cidade cidade){
     free(list->listaQ);
     free(list->listaqry);
     free(list->listaPS);
-    free(list->listaConvex);
+    free(list->listaEnvoltoria);
     free(list->listaCovid);
     free(list);
 }

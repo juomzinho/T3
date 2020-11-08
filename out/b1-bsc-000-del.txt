@@ -34,3 +34,147 @@ crd? rbb05.1
 crd? sfb04.4
 	Cep ou Id nao localizado
 
+crd? b05.5
+	Cep ou Id nao localizado
+
+crd? hob01.4
+x: 550.000000 y: 65.000000 Hidrante
+
+crd? rbb05.1
+x: 85.000000 y: 445.000000 Rádio-Base
+
+crd? sfb04.4
+x: 422.500000 y: 302.500000 Semaforo
+
+del b05.5
+	Cep ou Id nao localizado
+
+del hob01.4
+id: hob01.4 x: 550.000000 y: 65.000000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb05.1
+id: rbb05.1 x: 85.000000 y: 445.000000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb04.4
+id: sfb04.4 x: 422.500000 y: 302.500000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b05.5
+	Cep ou Id nao localizado
+
+crd? hob01.4
+	Cep ou Id nao localizado
+
+crd? rbb05.1
+	Cep ou Id nao localizado
+
+crd? sfb04.4
+	Cep ou Id nao localizado
+
+crd? b05.5
+	Cep ou Id nao localizado
+
+crd? hob01.4
+x: 550.000000 y: 65.000000 Hidrante
+
+crd? rbb05.1
+x: 85.000000 y: 445.000000 Rádio-Base
+
+crd? sfb04.4
+x: 422.500000 y: 302.500000 Semaforo
+
+del b05.5
+	Cep ou Id nao localizado
+
+del hob01.4
+id: hob01.4 x: 550.000000 y: 65.000000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb05.1
+id: rbb05.1 x: 85.000000 y: 445.000000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb04.4
+id: sfb04.4 x: 422.500000 y: 302.500000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b05.5
+	Cep ou Id nao localizado
+
+crd? hob01.4
+	Cep ou Id nao localizado
+
+crd? rbb05.1
+	Cep ou Id nao localizado
+
+crd? sfb04.4
+	Cep ou Id nao localizado
+
+crd? b05.5
+	Cep ou Id nao localizado
+
+crd? hob01.4
+x: 550.000000 y: 65.000000 Hidrante
+
+crd? rbb05.1
+x: 85.000000 y: 445.000000 Rádio-Base
+
+crd? sfb04.4
+x: 422.500000 y: 302.500000 Semaforo
+
+del b05.5
+	Cep ou Id nao localizado
+
+del hob01.4
+id: hob01.4 x: 550.000000 y: 65.000000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb05.1
+id: rbb05.1 x: 85.000000 y: 445.000000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb04.4
+id: sfb04.4 x: 422.500000 y: 302.500000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b05.5
+	Cep ou Id nao localizado
+
+crd? hob01.4
+	Cep ou Id nao localizado
+
+crd? rbb05.1
+	Cep ou Id nao localizado
+
+crd? sfb04.4
+	Cep ou Id nao localizado
+
+crd? b05.5
+	Cep ou Id nao localizado
+
+crd? hob01.4
+x: 550.000000 y: 65.000000 Hidrante
+
+crd? rbb05.1
+x: 85.000000 y: 445.000000 Rádio-Base
+
+crd? sfb04.4
+x: 422.500000 y: 302.500000 Semaforo
+
+del b05.5
+	Cep ou Id nao localizado
+
+del hob01.4
+id: hob01.4 x: 550.000000 y: 65.000000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb05.1
+id: rbb05.1 x: 85.000000 y: 445.000000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb04.4
+id: sfb04.4 x: 422.500000 y: 302.500000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b05.5
+	Cep ou Id nao localizado
+
+crd? hob01.4
+	Cep ou Id nao localizado
+
+crd? rbb05.1
+	Cep ou Id nao localizado
+
+crd? sfb04.4
+	Cep ou Id nao localizado
+

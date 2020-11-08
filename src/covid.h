@@ -33,5 +33,10 @@ void ci(Cidade listas, double x, double y, double raio);
 
 void envoltoria(double x, double y, double raio, Lista listaPS);
 
+double areaConvexa(Lista lista);
+
+double centroideX(Lista lista);
+
+double centroideY(Lista lista);
 
 #endif

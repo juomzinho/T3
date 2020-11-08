@@ -37,9 +37,21 @@ Lista getListaQRY(Cidade listas);
 e retorna a lista de postos de saúde*/
 Lista getListaPS(Cidade listas);
 
-Lista getListaConvexa(Cidade listas);
+Lista getListaEnvoltoria(Cidade listas);
 
 Lista getListaCovid(Cidade lista);
+
+double cidadeX(Cidade listas);
+
+double cidadeY(Cidade listas);
+
+double cidadeW(Cidade listas);
+
+double cidadeH(Cidade listas);
+
+double cidadeD(Cidade listas);
+
+void DDCidade(double x, double y, double w, double h, double d, Cidade cidade);
 
 /*Esta funcao rebece a lista que contem todas as listas
 e desaloca*/

@@ -25,13 +25,15 @@ void imprimeTracejado(double x, double y, double x2, double y2, char saida[]);
 
 void imprimeCirculoVerde(double x, double y, double raio, char saida[]);
 
+void imprimeEnvoltoria(Lista lista, char fill[], char saida[]);
+
 void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num);
 
 void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]);
 
 void ci(Cidade listas, double x, double y, double raio);
 
-void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS);
+void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS, Lista listaEnvoltoria,double densidade);
 
 int compare(double x1, double y1, double x2, double y2);
 

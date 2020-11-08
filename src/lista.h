@@ -63,6 +63,8 @@ void desalocaLista(Lista l);
 
 void shellSort(Lista lista, int size, double x, double y);
 
+void swap(Lista lista, int min);
+
 void quickSort(Lista lista, double x, double y, int inicio, int size);
 
 #endif

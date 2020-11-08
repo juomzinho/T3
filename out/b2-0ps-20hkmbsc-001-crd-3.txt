@@ -7,3 +7,75 @@ x: 6465.000000 y: 1709.800000 Rádio-Base
 crd? rbb2-0ps-20hkm19.50
 x: 6465.000000 y: 1709.800000 Rádio-Base
 
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+
+crd? rbb2-0ps-20hkm19.50
+x: 6465.000000 y: 1709.800000 Rádio-Base
+

@@ -131,6 +131,7 @@ void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
     imprimeListaH(getListaHidrante(cidade), saida);
     imprimeListaPS(getListaPS(cidade), saida);
     imprimeQry(getListaQRY(cidade), saida);
+    imprimeRet(cidadeX(cidade), cidadeY(cidade), cidadeW(cidade), cidadeH(cidade), "5px", saida);
 
     fecharSvg(saida);
 

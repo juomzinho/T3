@@ -4790,4 +4790,6 @@
 	<circle cx="7420.613222" cy="1109.694135" r="6" fill="red" stroke="black" strokeWidth="2.0px" />
 	<text x="7417.613222" y="1112.694135" fill="white" >+</text>	<circle cx="3275.000000" cy="75.400000" r="150.000000" fill="none" stroke="black" stroke-width="1.0px"/>
 
+	<rect x="35.000000" y="35.000000" width="7800.000000" height="1816.000000" fill="none" stroke="black" stroke-width="5px" />
+
 </svg>

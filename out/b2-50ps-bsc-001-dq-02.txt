@@ -19,3 +19,45 @@ Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta 
 
 Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
 
+dq # rbb2-50ps-2.58 150.000000
+Cep: b2-50ps-1.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+dq # rbb2-50ps-2.58 150.000000
+Cep: b2-50ps-1.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+dq # rbb2-50ps-2.58 150.000000
+Cep: b2-50ps-1.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+dq # rbb2-50ps-2.58 150.000000
+Cep: b2-50ps-1.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+dq # rbb2-50ps-2.58 150.000000
+Cep: b2-50ps-1.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+dq # rbb2-50ps-2.58 150.000000
+Cep: b2-50ps-1.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+

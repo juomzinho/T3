@@ -202,7 +202,6 @@ void shellSort(Lista lista, int size, double x, double y){
     
 
 	while (h > 0){
-
         aux = getFirst(lista); 
         node = getFirst(lista);
 
@@ -212,7 +211,6 @@ void shellSort(Lista lista, int size, double x, double y){
             cont++;
         }
         
-
         while (aux!=NULL){
             if (dist(x, y, getXPS(getInfo(aux)), getYPS(getInfo(aux))) < dist(x, y, getXPS(getInfo(node)), getYPS(getInfo(node)))){
                 aux2.info = node->info;
@@ -250,6 +248,20 @@ int particiona(Lista lista, int inicio, int size, double x, double y){
     }
     
     return i;
+}
+
+void swap(Lista lista, int min){
+    NoStruct *node1, *node2, aux;
+
+    node1 = getFirst(lista);
+    for (int i = 0; i < min; i++){
+        node1 = getNext(node1);
+    }
+    node2 = getFirst(lista);
+
+    aux.info = node1->info;
+    node1->info = node2->info;
+    node2->info = aux.info;    
 }
 
 void quickSort(Lista lista, double x, double y, int inicio, int size){

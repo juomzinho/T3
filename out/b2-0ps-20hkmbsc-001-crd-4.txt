@@ -7,3 +7,72 @@ x: 290.000000 y: 1392.000000 Semaforo
 crd? sfb2-0ps-20hkm16.3
 x: 290.000000 y: 1392.000000 Semaforo
 
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+
+crd? sfb2-0ps-20hkm16.3
+x: 290.000000 y: 1392.000000 Semaforo
+

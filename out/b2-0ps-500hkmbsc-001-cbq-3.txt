@@ -31,3 +31,190 @@ cbq 3900.000000 0.000000 300.500000 lemonchiffon
 
 	CEP: b2-0ps-500hkm2.31
 
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+
+cbq 3900.000000 0.000000 300.500000 lemonchiffon
+	CEP: b2-0ps-500hkm1.29
+
+	CEP: b2-0ps-500hkm1.30
+
+	CEP: b2-0ps-500hkm1.31
+
+	CEP: b2-0ps-500hkm2.30
+
+	CEP: b2-0ps-500hkm2.31
+

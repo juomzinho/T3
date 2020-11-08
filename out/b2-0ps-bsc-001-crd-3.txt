@@ -7,3 +7,30 @@ x: 7245.000000 y: 529.400000 Rádio-Base
 crd? rbb2-0ps-6.56
 x: 7245.000000 y: 529.400000 Rádio-Base
 
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+
+crd? rbb2-0ps-6.56
+x: 7245.000000 y: 529.400000 Rádio-Base
+

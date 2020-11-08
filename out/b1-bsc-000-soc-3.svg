@@ -661,4 +661,6 @@
 	<line x1="594.125437" y1="323.247425" x2="170.000000" y2="405.000000" stroke="black" fill="white" stroke-dasharray="5"/>
 	<line x1="598.238298" y1="80.790228" x2="170.000000" y2="405.000000" stroke="black" fill="white" stroke-dasharray="5"/>
 
+	<rect x="25.000000" y="25.000000" width="675.000000" height="475.000000" fill="none" stroke="black" stroke-width="5px" />
+
 </svg>

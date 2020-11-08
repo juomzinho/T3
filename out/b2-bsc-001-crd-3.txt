@@ -7,3 +7,21 @@ x: 1265.000000 y: 166.200000 Rádio-Base
 crd? rbb2-2.10
 x: 1265.000000 y: 166.200000 Rádio-Base
 
+crd? rbb2-2.10
+x: 1265.000000 y: 166.200000 Rádio-Base
+
+crd? rbb2-2.10
+x: 1265.000000 y: 166.200000 Rádio-Base
+
+crd? rbb2-2.10
+x: 1265.000000 y: 166.200000 Rádio-Base
+
+crd? rbb2-2.10
+x: 1265.000000 y: 166.200000 Rádio-Base
+
+crd? rbb2-2.10
+x: 1265.000000 y: 166.200000 Rádio-Base
+
+crd? rbb2-2.10
+x: 1265.000000 y: 166.200000 Rádio-Base
+

@@ -8509,4 +8509,6 @@
 	<text x="6020.000000" y="1268.400000" fill="white" stroke="none">10</text>
 	<rect x="165.000000" y="1542.800000" width="20.000000" height="20.000000" fill="orange"/>
 	<text x="170.000000" y="1555.800000" fill="white" stroke="none">7</text>
+	<rect x="35.000000" y="35.000000" width="7800.000000" height="1816.000000" fill="none" stroke="black" stroke-width="5px" />
+
 </svg>

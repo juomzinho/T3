@@ -106,3 +106,291 @@ crd? rbb2-2000ps-1.36
 crd? sfb2-2000ps-16.33
 	Cep ou Id nao localizado
 
+crd? b2-2000ps-5.43
+x: 5495.000000 y: 398.200000 Quadra
+
+crd? hneb2-2000ps-14.49
+x: 6275.000000 y: 1296.200000 Hidrante
+
+crd? rbb2-2000ps-1.36
+x: 4645.000000 y: 75.400000 Rádio-Base
+
+crd? sfb2-2000ps-16.33
+x: 4190.000000 y: 1392.000000 Semaforo
+
+del b2-2000ps-5.43
+cep: b2-2000ps-5.43 x: 5495.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: peru Stroke: tomato SW: 1.0px
+
+del hneb2-2000ps-14.49
+id: hneb2-2000ps-14.49 x: 6275.000000 y: 1296.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-2000ps-1.36
+id: rbb2-2000ps-1.36 x: 4645.000000 y: 75.400000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-2000ps-16.33
+id: sfb2-2000ps-16.33 x: 4190.000000 y: 1392.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-2000ps-5.43
+	Cep ou Id nao localizado
+
+crd? hneb2-2000ps-14.49
+	Cep ou Id nao localizado
+
+crd? rbb2-2000ps-1.36
+	Cep ou Id nao localizado
+
+crd? sfb2-2000ps-16.33
+	Cep ou Id nao localizado
+
+crd? b2-2000ps-5.43
+x: 5495.000000 y: 398.200000 Quadra
+
+crd? hneb2-2000ps-14.49
+x: 6275.000000 y: 1296.200000 Hidrante
+
+crd? rbb2-2000ps-1.36
+x: 4645.000000 y: 75.400000 Rádio-Base
+
+crd? sfb2-2000ps-16.33
+x: 4190.000000 y: 1392.000000 Semaforo
+
+del b2-2000ps-5.43
+cep: b2-2000ps-5.43 x: 5495.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: peru Stroke: tomato SW: 1.0px
+
+del hneb2-2000ps-14.49
+id: hneb2-2000ps-14.49 x: 6275.000000 y: 1296.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-2000ps-1.36
+id: rbb2-2000ps-1.36 x: 4645.000000 y: 75.400000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-2000ps-16.33
+id: sfb2-2000ps-16.33 x: 4190.000000 y: 1392.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-2000ps-5.43
+	Cep ou Id nao localizado
+
+crd? hneb2-2000ps-14.49
+	Cep ou Id nao localizado
+
+crd? rbb2-2000ps-1.36
+	Cep ou Id nao localizado
+
+crd? sfb2-2000ps-16.33
+	Cep ou Id nao localizado
+
+crd? b2-2000ps-5.43
+x: 5495.000000 y: 398.200000 Quadra
+
+crd? hneb2-2000ps-14.49
+x: 6275.000000 y: 1296.200000 Hidrante
+
+crd? rbb2-2000ps-1.36
+x: 4645.000000 y: 75.400000 Rádio-Base
+
+crd? sfb2-2000ps-16.33
+x: 4190.000000 y: 1392.000000 Semaforo
+
+del b2-2000ps-5.43
+cep: b2-2000ps-5.43 x: 5495.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: peru Stroke: tomato SW: 1.0px
+
+del hneb2-2000ps-14.49
+id: hneb2-2000ps-14.49 x: 6275.000000 y: 1296.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-2000ps-1.36
+id: rbb2-2000ps-1.36 x: 4645.000000 y: 75.400000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-2000ps-16.33
+id: sfb2-2000ps-16.33 x: 4190.000000 y: 1392.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-2000ps-5.43
+	Cep ou Id nao localizado
+
+crd? hneb2-2000ps-14.49
+	Cep ou Id nao localizado
+
+crd? rbb2-2000ps-1.36
+	Cep ou Id nao localizado
+
+crd? sfb2-2000ps-16.33
+	Cep ou Id nao localizado
+
+crd? b2-2000ps-5.43
+x: 5495.000000 y: 398.200000 Quadra
+
+crd? hneb2-2000ps-14.49
+x: 6275.000000 y: 1296.200000 Hidrante
+
+crd? rbb2-2000ps-1.36
+x: 4645.000000 y: 75.400000 Rádio-Base
+
+crd? sfb2-2000ps-16.33
+x: 4190.000000 y: 1392.000000 Semaforo
+
+del b2-2000ps-5.43
+cep: b2-2000ps-5.43 x: 5495.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: peru Stroke: tomato SW: 1.0px
+
+del hneb2-2000ps-14.49
+id: hneb2-2000ps-14.49 x: 6275.000000 y: 1296.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-2000ps-1.36
+id: rbb2-2000ps-1.36 x: 4645.000000 y: 75.400000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-2000ps-16.33
+id: sfb2-2000ps-16.33 x: 4190.000000 y: 1392.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-2000ps-5.43
+	Cep ou Id nao localizado
+
+crd? hneb2-2000ps-14.49
+	Cep ou Id nao localizado
+
+crd? rbb2-2000ps-1.36
+	Cep ou Id nao localizado
+
+crd? sfb2-2000ps-16.33
+	Cep ou Id nao localizado
+
+crd? b2-2000ps-5.43
+x: 5495.000000 y: 398.200000 Quadra
+
+crd? hneb2-2000ps-14.49
+x: 6275.000000 y: 1296.200000 Hidrante
+
+crd? rbb2-2000ps-1.36
+x: 4645.000000 y: 75.400000 Rádio-Base
+
+crd? sfb2-2000ps-16.33
+x: 4190.000000 y: 1392.000000 Semaforo
+
+del b2-2000ps-5.43
+cep: b2-2000ps-5.43 x: 5495.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: peru Stroke: tomato SW: 1.0px
+
+del hneb2-2000ps-14.49
+id: hneb2-2000ps-14.49 x: 6275.000000 y: 1296.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-2000ps-1.36
+id: rbb2-2000ps-1.36 x: 4645.000000 y: 75.400000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-2000ps-16.33
+id: sfb2-2000ps-16.33 x: 4190.000000 y: 1392.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-2000ps-5.43
+	Cep ou Id nao localizado
+
+crd? hneb2-2000ps-14.49
+	Cep ou Id nao localizado
+
+crd? rbb2-2000ps-1.36
+	Cep ou Id nao localizado
+
+crd? sfb2-2000ps-16.33
+	Cep ou Id nao localizado
+
+crd? b2-2000ps-5.43
+x: 5495.000000 y: 398.200000 Quadra
+
+crd? hneb2-2000ps-14.49
+x: 6275.000000 y: 1296.200000 Hidrante
+
+crd? rbb2-2000ps-1.36
+x: 4645.000000 y: 75.400000 Rádio-Base
+
+crd? sfb2-2000ps-16.33
+x: 4190.000000 y: 1392.000000 Semaforo
+
+del b2-2000ps-5.43
+cep: b2-2000ps-5.43 x: 5495.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: peru Stroke: tomato SW: 1.0px
+
+del hneb2-2000ps-14.49
+id: hneb2-2000ps-14.49 x: 6275.000000 y: 1296.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-2000ps-1.36
+id: rbb2-2000ps-1.36 x: 4645.000000 y: 75.400000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-2000ps-16.33
+id: sfb2-2000ps-16.33 x: 4190.000000 y: 1392.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-2000ps-5.43
+	Cep ou Id nao localizado
+
+crd? hneb2-2000ps-14.49
+	Cep ou Id nao localizado
+
+crd? rbb2-2000ps-1.36
+	Cep ou Id nao localizado
+
+crd? sfb2-2000ps-16.33
+	Cep ou Id nao localizado
+
+crd? b2-2000ps-5.43
+x: 5495.000000 y: 398.200000 Quadra
+
+crd? hneb2-2000ps-14.49
+x: 6275.000000 y: 1296.200000 Hidrante
+
+crd? rbb2-2000ps-1.36
+x: 4645.000000 y: 75.400000 Rádio-Base
+
+crd? sfb2-2000ps-16.33
+x: 4190.000000 y: 1392.000000 Semaforo
+
+del b2-2000ps-5.43
+cep: b2-2000ps-5.43 x: 5495.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: peru Stroke: tomato SW: 1.0px
+
+del hneb2-2000ps-14.49
+id: hneb2-2000ps-14.49 x: 6275.000000 y: 1296.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-2000ps-1.36
+id: rbb2-2000ps-1.36 x: 4645.000000 y: 75.400000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-2000ps-16.33
+id: sfb2-2000ps-16.33 x: 4190.000000 y: 1392.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-2000ps-5.43
+	Cep ou Id nao localizado
+
+crd? hneb2-2000ps-14.49
+	Cep ou Id nao localizado
+
+crd? rbb2-2000ps-1.36
+	Cep ou Id nao localizado
+
+crd? sfb2-2000ps-16.33
+	Cep ou Id nao localizado
+
+crd? b2-2000ps-5.43
+x: 5495.000000 y: 398.200000 Quadra
+
+crd? hneb2-2000ps-14.49
+x: 6275.000000 y: 1296.200000 Hidrante
+
+crd? rbb2-2000ps-1.36
+x: 4645.000000 y: 75.400000 Rádio-Base
+
+crd? sfb2-2000ps-16.33
+x: 4190.000000 y: 1392.000000 Semaforo
+
+del b2-2000ps-5.43
+cep: b2-2000ps-5.43 x: 5495.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: peru Stroke: tomato SW: 1.0px
+
+del hneb2-2000ps-14.49
+id: hneb2-2000ps-14.49 x: 6275.000000 y: 1296.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-2000ps-1.36
+id: rbb2-2000ps-1.36 x: 4645.000000 y: 75.400000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-2000ps-16.33
+id: sfb2-2000ps-16.33 x: 4190.000000 y: 1392.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-2000ps-5.43
+	Cep ou Id nao localizado
+
+crd? hneb2-2000ps-14.49
+	Cep ou Id nao localizado
+
+crd? rbb2-2000ps-1.36
+	Cep ou Id nao localizado
+
+crd? sfb2-2000ps-16.33
+	Cep ou Id nao localizado
+

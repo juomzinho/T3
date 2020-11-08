@@ -208,3 +208,4133 @@ Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblu
 
 Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
 
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+cbq 280.000000 200.000000 360.000000 red
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b01.4
+
+	CEP: b02.1
+
+	CEP: b02.2
+
+	CEP: b02.3
+
+	CEP: b02.4
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b03.4
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b04.3
+
+	CEP: b04.4
+
+	CEP: b05.2
+
+	CEP: b05.3
+
+dq hnob02.2 150.000000
+Cep: b02.2 Id: hnob02.2 X: 280.000000 Y: 200.000000 Fill: red Stroke: firebrick
+
+cbq 85.000000 160.000000 360.000000 blue
+	CEP: b01.1
+
+	CEP: b01.2
+
+	CEP: b01.3
+
+	CEP: b02.1
+
+	CEP: b02.3
+
+	CEP: b03.1
+
+	CEP: b03.2
+
+	CEP: b03.3
+
+	CEP: b04.1
+
+	CEP: b04.2
+
+	CEP: b05.1
+
+dq # rbb02.1 150.000000
+Cep: b01.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b02.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+
+Cep: b03.1 Id: rbb02.1 X: 85.000000 Y: 160.000000 Fill: magenta Stroke: lightblue
+

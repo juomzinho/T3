@@ -331,8 +331,6 @@ void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS
     No nodeCovid = getFirst(listaCovid), nodePS = getFirst(listaPS);
     Info elemento;
 
-    shellSort(listaCovid, length(listaCovid), x, y);
-
     while (nodePS != NULL){   
         elemento = getInfo(nodePS);
 

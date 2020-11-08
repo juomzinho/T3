@@ -66,34 +66,17 @@ void imprimeQry(Lista l, char saida[]){
 
 
 void imprimeArea(double x, double y,double w, double h,double area, char saida[]){
-    double textX, textY;
-
-    textX = x + (w/2);
-    textY = y + (h/2);
-
     FILE *arq;
     arq = fopen(saida, "a");
 
-    if (arq == NULL){
-        printf("Erro ao abrir SVG!");
-        exit(1);
-    }
-    
-    fprintf(arq, "\t<text x=\"%lf\" y=\"%lf\">%lf</text>", textX, textY, area);
+    fprintf(arq, "\t<text x=\"%lf\" y=\"%lf\">%lf</text>", (x + (w / 2)), (y + (h/2)), area);
 
     fclose(arq);
 }
 
-void imprimeLinha(double x, double y, char cep[], char saida[])
-{
+void imprimeLinha(double x, double y, char cep[], char saida[]){
     FILE *arq;
     arq = fopen(saida, "a");
-
-    if (arq == NULL)
-    {
-        printf("Erro ao abrir SVG!");
-        exit(1);
-    }
 
     fprintf(arq, "\t<line x1=\"%lf\" y1=\"%lf\" x2=\"%lf\" y2=\"0\" stroke=\"black\" stroke-width=\"2\"/>\n", x, y, x);
     x = x + 2;
@@ -102,16 +85,9 @@ void imprimeLinha(double x, double y, char cep[], char saida[])
     fclose(arq);
 }
 
-void imprimeLinhaD(double x, double y, double area, char saida[])
-{
+void imprimeLinhaD(double x, double y, double area, char saida[]){
     FILE *arq;
     arq = fopen(saida, "a");
-
-    if (arq == NULL)
-    {
-        printf("Erro ao abrir SVG!");
-        exit(1);
-    }
 
     fprintf(arq, "\t<line x1=\"%lf\" y1=\"%lf\" x2=\"%lf\" y2=\"0\" stroke=\"black\" stroke-width=\"2\"/>\n", x, y, x);
     x = x + 2;
@@ -120,16 +96,9 @@ void imprimeLinhaD(double x, double y, double area, char saida[])
     fclose(arq);
 }
 
-void imprimeCirculoQry(double x, double y, double raio, char saida[])
-{
+void imprimeCirculoQry(double x, double y, double raio, char saida[]){
     FILE *arq;
     arq = fopen(saida, "a");
-
-    if (arq == NULL)
-    {
-        printf("Erro ao abrir SVG!");
-        exit(1);
-    }
 
     fprintf(arq, "\t<circle cx=\"%lf\" cy=\"%lf\" r=\"%lf\" fill=\"none\" stroke=\"black\" stroke-width=\"1.0px\"/>\n", x, y, raio);
 
@@ -140,27 +109,14 @@ void imprimeRetT(double x, double y, double w, double h, char sw[], char saida[]
     FILE *arq;
     arq = fopen(saida, "a");
 
-    if (arq == NULL)
-    {
-        printf("Erro ao abrir SVG!");
-        exit(1);
-    }
-
     fprintf(arq, "\n\t<rect x=\"%lf\" y=\"%lf\" width=\"%lf\" height=\"%lf\" fill=\"none\" stroke=\"black\" stroke-width=\"%s\" stroke-dasharray=\"5\"/>\n", x, y, w, h, sw);
 
     fclose(arq);
 }
 
-void imprimeRet(double x, double y, double w, double h, char sw[], char saida[])
-{
+void imprimeRet(double x, double y, double w, double h, char sw[], char saida[]){
     FILE *arq;
     arq = fopen(saida, "a");
-
-    if (arq == NULL)
-    {
-        printf("Erro ao abrir SVG!");
-        exit(1);
-    }
 
     fprintf(arq, "\n\t<rect x=\"%lf\" y=\"%lf\" width=\"%lf\" height=\"%lf\" fill=\"none\" stroke=\"black\" stroke-width=\"%s\" />\n", x, y, w, h, sw);
 

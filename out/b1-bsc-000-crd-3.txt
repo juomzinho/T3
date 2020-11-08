@@ -7,9 +7,3 @@ x: 355.000000 y: 445.000000 Rádio-Base
 crd? rbb05.3
 x: 355.000000 y: 445.000000 Rádio-Base
 
-crd? rbb05.3
-x: 355.000000 y: 445.000000 Rádio-Base
-
-crd? rbb05.3
-x: 355.000000 y: 445.000000 Rádio-Base
-

@@ -138,11 +138,6 @@ void crd(Cidade listas, char id[], char txtArq[])
 
     FILE *txt;
     txt = fopen(txtArq, "a");
-    if (txt == NULL)
-    {
-        printf("erro ao abrir txt!\n");
-        exit(1);
-    }
 
     fprintf(txt,"crd? %s\n", id);
 
@@ -236,10 +231,6 @@ void del(Cidade listas, char id[], char txtarq[]){
 
     FILE *txt;
     txt = fopen(txtarq, "a");
-    if (txt == NULL){
-        printf("erro ao abrir txt!\n");
-        exit(1);
-    }
 
     fprintf(txt,"del %s\n",id);
 
@@ -336,10 +327,6 @@ void car(Cidade listas, double x, double y, double w, double h, char txtArq[]){
 
     FILE *txt;
     txt = fopen(txtArq,"a");
-    if (txt == NULL){
-        printf("erro ao abrir txt!\n");
-        exit(1);
-    }
 
     fprintf(txt,"car %lf %lf %lf %lf\n",x,y,w,h);
 
@@ -374,10 +361,6 @@ void cbq(Cidade listas, double x, double y, double raio, char cstrk[], char txta
 
     FILE *txt;
     txt = fopen(txtarq, "a");
-    if (txt == NULL){
-        printf("erro ao abrir txt!\n");
-        exit(1);
-    }
 
     fprintf(txt,"cbq %lf %lf %lf %s\n",x,y,raio,cstrk);
 
@@ -412,10 +395,6 @@ void dq(Cidade listas, char id[], double r, bool verifica, char txtarq[])
 
     FILE *txt;
     txt = fopen(txtarq, "a");
-      if (txt == NULL){
-        printf("erro ao abrir txt!\n");
-        exit(1);
-    }
 
     if (verifica == true){
         fprintf(txt,"dq # %s %lf\n", id, r);
@@ -812,11 +791,6 @@ void oFormas(int j, int k, Lista lista, char txt[]){
 
     FILE *fp;
     fp = fopen(txt, "a");
-    if (txt == NULL)
-    {
-        printf("erro ao abrir txt!");
-        exit(0);
-    }
 
     fprintf(fp, "o?\n");
 

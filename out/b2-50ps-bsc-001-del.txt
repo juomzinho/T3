@@ -1,0 +1,108 @@
+crd? b2-50ps-16.29
+x: 3675.000000 y: 1397.000000 Quadra
+
+crd? hob2-50ps-13.25
+x: 3275.000000 y: 1165.000000 Hidrante
+
+crd? rbb2-50ps-7.30
+x: 3865.000000 y: 620.200000 Rádio-Base
+
+crd? sfb2-50ps-12.32
+x: 4060.000000 y: 1028.800000 Semaforo
+
+del b2-50ps-16.29
+cep: b2-50ps-16.29 x: 3675.000000 y: 1397.000000 w: 120.000000 h: 80.800000 Fill: orange Stroke: darkred SW: 1.0px
+
+del hob2-50ps-13.25
+id: hob2-50ps-13.25 x: 3275.000000 y: 1165.000000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-50ps-7.30
+id: rbb2-50ps-7.30 x: 3865.000000 y: 620.200000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-50ps-12.32
+id: sfb2-50ps-12.32 x: 4060.000000 y: 1028.800000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-50ps-16.29
+	Cep ou Id nao localizado
+
+crd? hob2-50ps-13.25
+	Cep ou Id nao localizado
+
+crd? rbb2-50ps-7.30
+	Cep ou Id nao localizado
+
+crd? sfb2-50ps-12.32
+	Cep ou Id nao localizado
+
+crd? b2-50ps-16.29
+x: 3675.000000 y: 1397.000000 Quadra
+
+crd? hob2-50ps-13.25
+x: 3275.000000 y: 1165.000000 Hidrante
+
+crd? rbb2-50ps-7.30
+x: 3865.000000 y: 620.200000 Rádio-Base
+
+crd? sfb2-50ps-12.32
+x: 4060.000000 y: 1028.800000 Semaforo
+
+del b2-50ps-16.29
+cep: b2-50ps-16.29 x: 3675.000000 y: 1397.000000 w: 120.000000 h: 80.800000 Fill: orange Stroke: darkred SW: 1.0px
+
+del hob2-50ps-13.25
+id: hob2-50ps-13.25 x: 3275.000000 y: 1165.000000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-50ps-7.30
+id: rbb2-50ps-7.30 x: 3865.000000 y: 620.200000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-50ps-12.32
+id: sfb2-50ps-12.32 x: 4060.000000 y: 1028.800000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-50ps-16.29
+	Cep ou Id nao localizado
+
+crd? hob2-50ps-13.25
+	Cep ou Id nao localizado
+
+crd? rbb2-50ps-7.30
+	Cep ou Id nao localizado
+
+crd? sfb2-50ps-12.32
+	Cep ou Id nao localizado
+
+crd? b2-50ps-16.29
+x: 3675.000000 y: 1397.000000 Quadra
+
+crd? hob2-50ps-13.25
+x: 3275.000000 y: 1165.000000 Hidrante
+
+crd? rbb2-50ps-7.30
+x: 3865.000000 y: 620.200000 Rádio-Base
+
+crd? sfb2-50ps-12.32
+x: 4060.000000 y: 1028.800000 Semaforo
+
+del b2-50ps-16.29
+cep: b2-50ps-16.29 x: 3675.000000 y: 1397.000000 w: 120.000000 h: 80.800000 Fill: orange Stroke: darkred SW: 1.0px
+
+del hob2-50ps-13.25
+id: hob2-50ps-13.25 x: 3275.000000 y: 1165.000000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-50ps-7.30
+id: rbb2-50ps-7.30 x: 3865.000000 y: 620.200000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-50ps-12.32
+id: sfb2-50ps-12.32 x: 4060.000000 y: 1028.800000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-50ps-16.29
+	Cep ou Id nao localizado
+
+crd? hob2-50ps-13.25
+	Cep ou Id nao localizado
+
+crd? rbb2-50ps-7.30
+	Cep ou Id nao localizado
+
+crd? sfb2-50ps-12.32
+	Cep ou Id nao localizado
+

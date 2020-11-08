@@ -135,6 +135,7 @@ void criaPontoCovid(Lista lista, Lista listaQ, int n, char cep[], char face, int
                 covid->y = getYQ(elemento);
                 covid->n = n;
             }
+            break;
         }
         nodeQ = getNext(nodeQ);
     }
@@ -230,6 +231,7 @@ void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num)
             if (face == 'S'){
                 criaQuadradoeN(listaQRY, getXQ(elemento)+num, getYQ(elemento), n);
             }
+            break;
         }
 
         node = getNext(node);
@@ -246,8 +248,6 @@ void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]){
         nPostos++;
         nodePS = getNext(nodePS);
     }
-
-    printf("%lf %lf %lf %lf %lf\n", cidadeX(cidade), cidadeY(cidade), cidadeW(cidade), cidadeH(cidade), cidadeD(cidade));
 
     FILE *txt;
     txt = fopen(arqtxt, "a");
@@ -298,7 +298,8 @@ void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]){
                     fprintf(txt,"\tx: %lf   y: %lf\n", getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)));
                     nodePS = getNext(nodePS);
                 }
-            }  
+            }
+            break;
         }
         node = getNext(node);
     }
@@ -315,7 +316,7 @@ void ci(Cidade listas, double x, double y, double raio){
 
     criaCirculoVerde(getListaQRY(listas), raio, x, y);
 
-    envoltoria(x, y, raio, getListaCovid(listas));
+    envoltoria(x, y, raio, getListaCovid(listas), getListaPS(listas));
 
     // while (nodePS!=NULL){
     //     printf("%lf\n",dist(getXQ(elemento), getYQ(elemento), getXPS(getInfo(nodePS)),getYPS(getInfo(nodePS))));
@@ -325,26 +326,65 @@ void ci(Cidade listas, double x, double y, double raio){
 
 }
 
-void envoltoria(double x, double y, double raio, Lista listaCovid){
-    int NCasosNoCirc = 0;
-    No nodeCovid = getFirst(listaCovid);
+void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS){
+    int NCasosNoCirc = 0, NPostosNoCirc = 0;
+    No nodeCovid = getFirst(listaCovid), nodePS = getFirst(listaPS);
     Info elemento;
 
     shellSort(listaCovid, length(listaCovid), x, y);
-    
-    while (nodeCovid != NULL){   
-        elemento = getInfo(nodeCovid);
+
+    while (nodePS != NULL){   
+        elemento = getInfo(nodePS);
 
         if (PontoInterno(getXCovid(elemento), getYCovid(elemento), x, y, raio) == true){
-            NCasosNoCirc++;
+            NPostosNoCirc++;
         }        
-
-        nodeCovid = getNext(nodeCovid);
+        nodePS = getNext(nodePS);
     }
-        
+    
+    if ( NPostosNoCirc < 3 ){
+        // printf("Numero de postos insuficientes para fazer uma envoltoria.\n");
+        return;
+    }
+    
     
     // printf("%d\n", NCasosNoCirc);
 
+}
+
+int compare(double x1, double y1, double x2, double y2){
+    int o = orient(0, 0, x1, y1, x2 ,y2), distancia;
+
+    if (o == 0){
+       if (dist(0 , 0, x2, y2) >= dist(0, 0, x1, y1)){
+           distancia = 1;
+       }
+
+       if (distancia == 1){
+           return -1;
+       }else{
+           return 1;
+       }       
+    }if(o == 2){
+        return-1;
+    }else{
+        return 1;
+    }
+    
+}
+
+int orient(double x1, double y1, double x2, double y2, double x3, double y3){
+    double val;
+
+    val = (y2 - y1) * (x3 - x2) - (x2 - x1) * (y3 - y2);
+
+    if (val == 0){
+        return 0;
+    }if(val > 0){
+        return 1;
+    }else{
+        return 2;
+    }
 }
 
 double areaConvexa(Lista lista){
@@ -378,6 +418,8 @@ double centroideX(Lista lista){
         
         cx += ((getXEnvoltoria(aux) + getXEnvoltoria(getNext(aux))) * (getXEnvoltoria(aux) * getYEnvoltoria(getNext(aux)) - getXEnvoltoria(getNext(aux)) * getYEnvoltoria(aux)));        
     }
+
+    return cx;
 }
 
 double centroideY(Lista lista){
@@ -402,8 +444,7 @@ double centroideY(Lista lista){
             aux2 = getFirst(lista);
 
             cy += ((getXEnvoltoria(aux) + getXEnvoltoria(getNext(aux))) * (getXEnvoltoria(aux) * getYEnvoltoria(getNext(aux)) - getXEnvoltoria(getNext(aux))* getYEnvoltoria(aux)));
-        }
-        
+        }        
     }
 
     return cy;

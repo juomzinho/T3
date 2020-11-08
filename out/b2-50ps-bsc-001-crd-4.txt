@@ -1,0 +1,9 @@
+crd? sfb2-50ps-6.20
+x: 2500.000000 y: 484.000000 Semaforo
+
+crd? sfb2-50ps-6.20
+x: 2500.000000 y: 484.000000 Semaforo
+
+crd? sfb2-50ps-6.20
+x: 2500.000000 y: 484.000000 Semaforo
+

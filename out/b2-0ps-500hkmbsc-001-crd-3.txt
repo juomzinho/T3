@@ -1,0 +1,9 @@
+crd? rbb2-0ps-500hkm9.16
+x: 2045.000000 y: 801.800000 Rádio-Base
+
+crd? rbb2-0ps-500hkm9.16
+x: 2045.000000 y: 801.800000 Rádio-Base
+
+crd? rbb2-0ps-500hkm9.16
+x: 2045.000000 y: 801.800000 Rádio-Base
+

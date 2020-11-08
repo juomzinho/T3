@@ -31,7 +31,11 @@ void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]);
 
 void ci(Cidade listas, double x, double y, double raio);
 
-void envoltoria(double x, double y, double raio, Lista listaPS);
+void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS);
+
+int compare(double x1, double y1, double x2, double y2);
+
+int orient(double x1, double y1, double x2, double y2, double x3, double y3);
 
 double areaConvexa(Lista lista);
 

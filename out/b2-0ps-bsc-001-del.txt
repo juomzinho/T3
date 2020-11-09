@@ -1,0 +1,36 @@
+crd? b2-0ps-8.37
+x: 4715.000000 y: 670.600000 Quadra
+
+crd? hnob2-0ps-9.39
+x: 5095.000000 y: 842.200000 Hidrante
+
+crd? rbb2-0ps-17.35
+x: 4515.000000 y: 1528.200000 Rádio-Base
+
+crd? sfb2-0ps-6.17
+x: 2110.000000 y: 484.000000 Semaforo
+
+del b2-0ps-8.37
+cep: b2-0ps-8.37 x: 4715.000000 y: 670.600000 w: 120.000000 h: 80.800000 Fill: dodgerblue Stroke: darkcyan SW: 1.0px
+
+del hnob2-0ps-9.39
+id: hnob2-0ps-9.39 x: 5095.000000 y: 842.200000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb2-0ps-17.35
+id: rbb2-0ps-17.35 x: 4515.000000 y: 1528.200000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb2-0ps-6.17
+id: sfb2-0ps-6.17 x: 2110.000000 y: 484.000000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-0ps-8.37
+	Cep ou Id nao localizado
+
+crd? hnob2-0ps-9.39
+	Cep ou Id nao localizado
+
+crd? rbb2-0ps-17.35
+	Cep ou Id nao localizado
+
+crd? sfb2-0ps-6.17
+	Cep ou Id nao localizado
+

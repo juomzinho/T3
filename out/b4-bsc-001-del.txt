@@ -1,0 +1,36 @@
+crd? b4-18.37
+x: 4715.000000 y: 1578.600000 Quadra
+
+crd? hob4-13.102
+x: 13285.000000 y: 1165.000000 Hidrante
+
+crd? rbb4-20.116
+x: 15045.000000 y: 1800.600000 Rádio-Base
+
+crd? sfb4-15.109
+x: 14070.000000 y: 1301.200000 Semaforo
+
+del b4-18.37
+cep: b4-18.37 x: 4715.000000 y: 1578.600000 w: 120.000000 h: 80.800000 Fill: tomato Stroke: magenta SW: 1.0px
+
+del hob4-13.102
+id: hob4-13.102 x: 13285.000000 y: 1165.000000 Fill: red Stoke: firebrick Sw: 1.0px
+
+del rbb4-20.116
+id: rbb4-20.116 x: 15045.000000 y: 1800.600000 Fill: magenta Stroke: lightblue SW: 1.0px
+
+del sfb4-15.109
+id: sfb4-15.109 x: 14070.000000 y: 1301.200000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b4-18.37
+	Cep ou Id nao localizado
+
+crd? hob4-13.102
+	Cep ou Id nao localizado
+
+crd? rbb4-20.116
+	Cep ou Id nao localizado
+
+crd? sfb4-15.109
+	Cep ou Id nao localizado
+

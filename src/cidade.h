@@ -41,6 +41,8 @@ Lista getListaEnvoltoria(Cidade listas);
 
 Lista getListaCovid(Cidade lista);
 
+Lista getListaPontosCovid(Cidade listas);
+
 double cidadeX(Cidade listas);
 
 double cidadeY(Cidade listas);

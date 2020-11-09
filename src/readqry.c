@@ -21,7 +21,7 @@ struct Default{
 };
 
 void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
-    char comando[5];
+    char comando[5], categoria[6];
     struct Default def;
     bool verifica;
 
@@ -88,7 +88,7 @@ void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
 
         if(strcmp("ci",comando)==0){
             fscanf(arq,"%lf %lf %lf", &def.x, &def.y, &def.r);
-            ci(cidade,def.x, def.y, def.r);
+            ci(cidade,def.x, def.y, def.r, categoria, arquivotxt);
         }
 
         /* QRY FORMAS */
@@ -129,7 +129,9 @@ void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
     imprimeListaRB(getListaRadio(cidade), saida);
     imprimeListaH(getListaHidrante(cidade), saida);
     imprimeListaPS(getListaPS(cidade), saida);
-    imprimeEnvoltoria(getListaEnvoltoria(cidade), "00FFFF", saida);
+    if(getFirst(getListaEnvoltoria(cidade))!=NULL){
+        imprimeEnvoltoria(getListaEnvoltoria(cidade), categoria, saida);
+    }
     imprimeQry(getListaQRY(cidade), saida);
 
     fecharSvg(saida);

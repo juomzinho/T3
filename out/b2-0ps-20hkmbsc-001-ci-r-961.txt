@@ -1,0 +1,6 @@
+CEP x: 3775.000000 y: 1407.000000
+CEP x: 3515.000000 y: 90.000000
+Total de Casos: 22
+Área: 0.000000
+Incidencia: Alta incidência
+

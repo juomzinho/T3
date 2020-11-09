@@ -244,20 +244,6 @@ void swap(Lista lista, int min){
     node2->info = aux.info;    
 }
 
-// void quickSort(Lista lista, int inicio, int size){
-//     int i = inicio, j = size;
-//     No aux;
-//     for ( i = 0; i < size; i++){
-//         No aux = getFirst(lista);
-//         for (int k = 0; k < i; k++){
-//             aux = getNext(aux);
-//         }
-//         if (compare(getInfo(getFirst(lista)), getInfo(aux), getInfo(getLast(lista))){
-//             /* code */
-//         }
-//     }
-// }
-
 void quickSort(Lista lista, int inicio, int size){
     int i = inicio;
     int j = size-1;

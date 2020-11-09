@@ -13,6 +13,7 @@ typedef struct cid{
     Lista listaqry;
     Lista listaPS;
     Lista listaCovid;
+    Lista listaPontosCovid;
     Lista listaEnvoltoria;
     double x, y, w, h, d;
 } CidadeStruct;
@@ -30,6 +31,7 @@ Cidade iniciaCidade(){
     list->listaPS = create();
     list->listaEnvoltoria = create();
     list->listaCovid = create();
+    list->listaPontosCovid = create();
 
     return list;
 }
@@ -79,6 +81,11 @@ Lista getListaCovid(Cidade listas){
     return l->listaCovid;
 }
 
+Lista getListaPontosCovid(Cidade listas){
+    CidadeStruct* l = (CidadeStruct*) listas;
+    return l->listaPontosCovid;
+}
+
 double cidadeX(Cidade listas){
     CidadeStruct* l = (CidadeStruct*) listas;
     return l->x;
@@ -126,6 +133,7 @@ void removeListas(Cidade cidade){
     desalocaLista(list->listaPS);
     desalocaLista(list->listaEnvoltoria);
     desalocaLista(list->listaCovid);
+    desalocaLista(list->listaPontosCovid);
 
     free(list->listaF);
     free(list->listaS);
@@ -136,5 +144,6 @@ void removeListas(Cidade cidade){
     free(list->listaPS);
     free(list->listaEnvoltoria);
     free(list->listaCovid);
+    free(list->listaPontosCovid);
     free(list);
 }

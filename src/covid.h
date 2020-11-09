@@ -31,9 +31,9 @@ void cv(Lista listaCovid, Lista listaQuadra, Lista listaQRY, int n, char cep[], 
 
 void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]);
 
-void ci(Cidade listas, double x, double y, double raio);
+void ci(Cidade listas, double x, double y, double raio, char *categoria, char arqtxt[]);
 
-void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS, Lista listaEnvoltoria);
+void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS, Lista listaEnvoltoria, Lista listaPCovid);
 
 int compare(Info a, Info b, Info c);
 

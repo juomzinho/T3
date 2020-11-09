@@ -26,6 +26,7 @@ char *tratamento(char arqNome[]){
 	return strtok(arqNome,".");
 }
 
+
 int main(int argc, char *argv[]){
     char *nomeArq = NULL;
     char *path = NULL;

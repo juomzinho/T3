@@ -47,7 +47,6 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
     Semaforo semaforo;
     Radio radio;
     Formas crt;
-    Posto posto;
 
     nx.i = 1000;
     nx.nh = 1000;
@@ -143,7 +142,6 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
                 fscanf(arq,"%lf %lf", &def.x, &def.y);
                 imprimePosto(def.x, def.y,6,"red",saida);
                 postoLista(getListaPS(cidade), def.x, def.y);
-                // insere(getListaPS(cidade), posto);
             }
 
             if(strcmp("dd",comando)==0){

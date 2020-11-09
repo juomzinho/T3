@@ -1,0 +1,161 @@
+cbq 0.000000 0.000000 1202.000000 lemonchiffon
+	CEP: b2-0ps-20hkm1.1
+
+	CEP: b2-0ps-20hkm1.2
+
+	CEP: b2-0ps-20hkm1.3
+
+	CEP: b2-0ps-20hkm1.4
+
+	CEP: b2-0ps-20hkm1.5
+
+	CEP: b2-0ps-20hkm1.6
+
+	CEP: b2-0ps-20hkm1.7
+
+	CEP: b2-0ps-20hkm1.8
+
+	CEP: b2-0ps-20hkm1.9
+
+	CEP: b2-0ps-20hkm2.1
+
+	CEP: b2-0ps-20hkm2.2
+
+	CEP: b2-0ps-20hkm2.3
+
+	CEP: b2-0ps-20hkm2.4
+
+	CEP: b2-0ps-20hkm2.5
+
+	CEP: b2-0ps-20hkm2.6
+
+	CEP: b2-0ps-20hkm2.7
+
+	CEP: b2-0ps-20hkm2.8
+
+	CEP: b2-0ps-20hkm3.1
+
+	CEP: b2-0ps-20hkm3.2
+
+	CEP: b2-0ps-20hkm3.3
+
+	CEP: b2-0ps-20hkm3.4
+
+	CEP: b2-0ps-20hkm3.5
+
+	CEP: b2-0ps-20hkm3.6
+
+	CEP: b2-0ps-20hkm3.7
+
+	CEP: b2-0ps-20hkm3.8
+
+	CEP: b2-0ps-20hkm4.1
+
+	CEP: b2-0ps-20hkm4.2
+
+	CEP: b2-0ps-20hkm4.3
+
+	CEP: b2-0ps-20hkm4.4
+
+	CEP: b2-0ps-20hkm4.5
+
+	CEP: b2-0ps-20hkm4.6
+
+	CEP: b2-0ps-20hkm4.7
+
+	CEP: b2-0ps-20hkm4.8
+
+	CEP: b2-0ps-20hkm5.1
+
+	CEP: b2-0ps-20hkm5.2
+
+	CEP: b2-0ps-20hkm5.3
+
+	CEP: b2-0ps-20hkm5.4
+
+	CEP: b2-0ps-20hkm5.5
+
+	CEP: b2-0ps-20hkm5.6
+
+	CEP: b2-0ps-20hkm5.7
+
+	CEP: b2-0ps-20hkm5.8
+
+	CEP: b2-0ps-20hkm6.1
+
+	CEP: b2-0ps-20hkm6.2
+
+	CEP: b2-0ps-20hkm6.3
+
+	CEP: b2-0ps-20hkm6.4
+
+	CEP: b2-0ps-20hkm6.5
+
+	CEP: b2-0ps-20hkm6.6
+
+	CEP: b2-0ps-20hkm6.7
+
+	CEP: b2-0ps-20hkm7.1
+
+	CEP: b2-0ps-20hkm7.2
+
+	CEP: b2-0ps-20hkm7.3
+
+	CEP: b2-0ps-20hkm7.4
+
+	CEP: b2-0ps-20hkm7.5
+
+	CEP: b2-0ps-20hkm7.6
+
+	CEP: b2-0ps-20hkm7.7
+
+	CEP: b2-0ps-20hkm8.1
+
+	CEP: b2-0ps-20hkm8.2
+
+	CEP: b2-0ps-20hkm8.3
+
+	CEP: b2-0ps-20hkm8.4
+
+	CEP: b2-0ps-20hkm8.5
+
+	CEP: b2-0ps-20hkm8.6
+
+	CEP: b2-0ps-20hkm8.7
+
+	CEP: b2-0ps-20hkm9.1
+
+	CEP: b2-0ps-20hkm9.2
+
+	CEP: b2-0ps-20hkm9.3
+
+	CEP: b2-0ps-20hkm9.4
+
+	CEP: b2-0ps-20hkm9.5
+
+	CEP: b2-0ps-20hkm9.6
+
+	CEP: b2-0ps-20hkm10.1
+
+	CEP: b2-0ps-20hkm10.2
+
+	CEP: b2-0ps-20hkm10.3
+
+	CEP: b2-0ps-20hkm10.4
+
+	CEP: b2-0ps-20hkm10.5
+
+	CEP: b2-0ps-20hkm11.1
+
+	CEP: b2-0ps-20hkm11.2
+
+	CEP: b2-0ps-20hkm11.3
+
+	CEP: b2-0ps-20hkm11.4
+
+	CEP: b2-0ps-20hkm12.1
+
+	CEP: b2-0ps-20hkm12.2
+
+	CEP: b2-0ps-20hkm12.3
+

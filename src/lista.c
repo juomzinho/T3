@@ -248,7 +248,7 @@ void quickSort(Lista lista, int inicio, int size){
     int i = inicio;
     int j = size-1;
     NoStruct *aux, *pivo, *aux2, aux3;
-    Info *d1, *d2, *d3;
+    Info *d1, *d2;
 
     pivo = getFirst(lista);
     for (int k = 0; k < ((inicio+size)/2); k++){

@@ -1,0 +1,36 @@
+crd? b2-0ps-500hkm5.35
+x: 4455.000000 y: 398.200000 Quadra
+
+crd? hneb2-0ps-500hkm14.46
+	Cep ou Id nao localizado
+
+crd? rbb2-0ps-500hkm20.37
+	Cep ou Id nao localizado
+
+crd? sfb2-0ps-500hkm8.57
+x: 7310.000000 y: 665.600000 Semaforo
+
+del b2-0ps-500hkm5.35
+cep: b2-0ps-500hkm5.35 x: 4455.000000 y: 398.200000 w: 120.000000 h: 80.800000 Fill: darkcyan Stroke: tan SW: 1.0px
+
+del hneb2-0ps-500hkm14.46
+	Cep ou Id nao localizado
+
+del rbb2-0ps-500hkm20.37
+	Cep ou Id nao localizado
+
+del sfb2-0ps-500hkm8.57
+id: sfb2-0ps-500hkm8.57 x: 7310.000000 y: 665.600000 Fill : lightred Stroke: yellow SW: 1.0px
+
+crd? b2-0ps-500hkm5.35
+	Cep ou Id nao localizado
+
+crd? hneb2-0ps-500hkm14.46
+	Cep ou Id nao localizado
+
+crd? rbb2-0ps-500hkm20.37
+	Cep ou Id nao localizado
+
+crd? sfb2-0ps-500hkm8.57
+	Cep ou Id nao localizado
+

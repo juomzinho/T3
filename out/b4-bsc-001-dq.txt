@@ -1,0 +1,94 @@
+cbq 13295.000000 3475.400000 360.000000 red
+	CEP: b4-36.102
+
+	CEP: b4-36.103
+
+	CEP: b4-37.101
+
+	CEP: b4-37.102
+
+	CEP: b4-37.103
+
+	CEP: b4-37.104
+
+	CEP: b4-38.101
+
+	CEP: b4-38.102
+
+	CEP: b4-38.103
+
+	CEP: b4-38.104
+
+	CEP: b4-39.101
+
+	CEP: b4-39.102
+
+	CEP: b4-39.103
+
+	CEP: b4-39.104
+
+	CEP: b4-40.101
+
+	CEP: b4-40.102
+
+	CEP: b4-40.103
+
+	CEP: b4-40.104
+
+dq hneb4-38.103 150.000000
+Cep: b4-38.103 Id: hneb4-38.103 X: 13295.000000 Y: 3475.400000 Fill: red Stroke: firebrick
+
+cbq 1785.000000 3253.400000 360.000000 blue
+	CEP: b4-33.14
+
+	CEP: b4-34.13
+
+	CEP: b4-34.14
+
+	CEP: b4-34.15
+
+	CEP: b4-35.12
+
+	CEP: b4-35.13
+
+	CEP: b4-35.14
+
+	CEP: b4-35.15
+
+	CEP: b4-35.16
+
+	CEP: b4-36.12
+
+	CEP: b4-36.13
+
+	CEP: b4-36.14
+
+	CEP: b4-36.15
+
+	CEP: b4-36.16
+
+	CEP: b4-37.12
+
+	CEP: b4-37.13
+
+	CEP: b4-37.14
+
+	CEP: b4-37.15
+
+	CEP: b4-37.16
+
+	CEP: b4-38.13
+
+	CEP: b4-38.14
+
+	CEP: b4-38.15
+
+	CEP: b4-39.14
+
+dq # rbb4-36.14 150.000000
+Cep: b4-35.14 Id: rbb4-36.14 X: 1785.000000 Y: 3253.400000 Fill: magenta Stroke: lightblue
+
+Cep: b4-36.14 Id: rbb4-36.14 X: 1785.000000 Y: 3253.400000 Fill: magenta Stroke: lightblue
+
+Cep: b4-37.14 Id: rbb4-36.14 X: 1785.000000 Y: 3253.400000 Fill: magenta Stroke: lightblue
+

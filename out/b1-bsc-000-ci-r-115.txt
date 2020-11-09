@@ -1,0 +1,5 @@
+CEP x: 365.000000 y: 180.000000
+Total de Casos: 8
+Área: 0.000000
+Incidencia: 
+

@@ -294,18 +294,34 @@ void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]){
 void ci(Cidade listas, double x, double y, double raio, char *categoria, char arqtxt[]){
     No nodePS = getFirst(getListaPS(listas)), aux;
     int NPostos = 0, NCasos = 0;
-    double casos;
+    double casos, area, dd;
     char incidencia[20];
 
     criaCirculoVerde(getListaQRY(listas), raio, x, y);
 
     envoltoria(x, y, raio, getListaCovid(listas), getListaEnvoltoria(listas), getListaPontosCovid(listas));
-   
-    casos = (cidadeD(listas) / 1000000);
-    casos = casos * areaConvexa(getListaEnvoltoria(listas));
+
+    FILE *txt;   txt = fopen(arqtxt, "a");
+
+    aux = getFirst(getListaCovid(listas));
+    while (aux != NULL){
+        if (PontoInterno(getXCovid(getInfo(aux)), getYCovid(getInfo(aux)), x, y, raio) == true){
+                NPostos++;
+            }
+        aux = getNext(aux);
+    }
 
     if ( length(getListaEnvoltoria(listas)) >= 3){ 
-        FILE *txt;   txt = fopen(arqtxt, "a");      
+
+        aux = getFirst(getListaPontosCovid(listas));
+        while (aux != NULL){
+            NCasos += getNCovid(getInfo(aux));
+            aux = getNext(aux);
+        }
+        area = (areaConvexa(getListaEnvoltoria(listas)) / 1000000);
+        dd = cidadeD(listas) * area;        
+        casos = (NCasos * dd) / 100000;
+
 
         if (casos < 0.1){
             strcpy(categoria,"00FFFF"); strcpy(incidencia,"Livre de Covid");
@@ -328,20 +344,19 @@ void ci(Cidade listas, double x, double y, double raio, char *categoria, char ar
                 postoLista(getListaPS(listas), centroideX(getListaEnvoltoria(listas)), centroideY(getListaEnvoltoria(listas)));
             }
         }
-
-        aux = getFirst(getListaPontosCovid(listas));
-        while(aux!=NULL){
-            fprintf(txt,"CEP x: %lf y: %lf\n", getXCovid(getInfo(aux)), getYCovid(getInfo(aux)));
-            aux = getNext(aux);
-        }
-        aux = getFirst(getListaPontosCovid(listas));
-        while(aux!=NULL){
-            NCasos += getNCovid(getInfo(aux));
-            aux = getNext(aux);
-        }
-        fprintf(txt,"Total de Casos: %d\nÁrea: %lf\nIncidencia: %s\n\n", NCasos, areaConvexa(getListaEnvoltoria(listas)), incidencia);
-        fclose(txt);
     }
+     aux = getFirst(getListaPontosCovid(listas));
+    while(aux!=NULL){
+        fprintf(txt,"CEP x: %lf y: %lf\n", getXCovid(getInfo(aux)), getYCovid(getInfo(aux)));
+        aux = getNext(aux);
+    }
+    aux = getFirst(getListaPontosCovid(listas));
+    while(aux!=NULL){
+        NCasos += getNCovid(getInfo(aux));
+        aux = getNext(aux);
+    }
+    fprintf(txt,"Total de Casos: %d\nÁrea: %lf\nIncidencia: %s\n\n", NCasos, areaConvexa(getListaEnvoltoria(listas)), incidencia);
+    fclose(txt);
 }
 
 void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaEnvoltoria, Lista listaPCovid){
@@ -461,9 +476,11 @@ double areaConvexa(Lista lista){
         }
         area += (getXCovid(getInfo(aux)) * getYCovid(getInfo(getNext(aux))) - getXCovid(getInfo(getNext(aux))) * getYCovid(getInfo(aux)));
     }
-    
     area /= 2;
 
+    if (area < 0){
+        return -area;
+    }
     return area;
 
 }

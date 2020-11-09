@@ -41,7 +41,7 @@ CEP x: 3645.000000 y: 408.200000
 CEP x: 1895.000000 y: 640.600000
 CEP x: 3155.000000 y: 150.800000
 CEP x: 2635.000000 y: 150.800000
-Total de Casos: 655
+Total de Casos: 1310
 Área: 7202102.500000
 Incidencia: Catastrófico
 

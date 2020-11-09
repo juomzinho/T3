@@ -4606,9 +4606,7 @@
 	<circle cx="7825.000000" cy="1841.000000" r="4" fill="red" stroke="firebrick" stroke-width="1.0px"/>
 	<circle cx="7705.000000" cy="1841.000000" r="4" fill="red" stroke="firebrick" stroke-width="1.0px"/>
 	<circle cx="7825.000000" cy="1800.600000" r="4" fill="red" stroke="firebrick" stroke-width="1.0px"/>
-	<circle cx="3479.051232" cy="708.857613" r="6" fill="red" stroke="black" strokeWidth="2.0px" />
-	<text x="3476.051232" y="711.857613" fill="white" >+</text>
-	<polygon points="3645.000000,408.200000 4555.000000,529.000000 4465.000000,1639.400000 4205.000000,1639.400000 3195.000000,1033.800000 2950.000000,822.200000 3080.000000,579.800000 " fill="#800080" stroke="red" stroke-width="5px" opacity="0.5"/>
+	<polygon points="3645.000000,408.200000 4555.000000,529.000000 4465.000000,1639.400000 4205.000000,1639.400000 3195.000000,1033.800000 2950.000000,822.200000 3080.000000,579.800000 " fill="#FF0000" stroke="red" stroke-width="5px" opacity="0.5"/>
 	<rect x="6535.000000" y="907.200000" width="20.000000" height="20.000000" fill="orange"/>
 	<text x="6540.000000" y="920.200000" fill="white" stroke="none">23</text>
 	<rect x="1435.000000" y="680.600000" width="20.000000" height="20.000000" fill="orange"/>

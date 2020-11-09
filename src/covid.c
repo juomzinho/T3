@@ -295,7 +295,7 @@ void ci(Cidade listas, double x, double y, double raio, char *categoria, char ar
     No nodePS = getFirst(getListaPS(listas)), aux;
     int NPostos = 0, NCasos = 0;
     double casos, area, dd;
-    char incidencia[20];
+    char incidencia;
 
     criaCirculoVerde(getListaQRY(listas), raio, x, y);
 
@@ -324,15 +324,15 @@ void ci(Cidade listas, double x, double y, double raio, char *categoria, char ar
 
 
         if (casos < 0.1){
-            strcpy(categoria,"00FFFF"); strcpy(incidencia,"Livre de Covid");
+            strcpy(categoria,"00FFFF"); incidencia = 'A';
         }if(casos < 5){
-            strcpy(categoria,"008080"); strcpy(incidencia,"Baixa incidência");
+            strcpy(categoria,"008080"); incidencia = 'B';
         }if(casos < 10){
-            strcpy(categoria,"FFFF00"); strcpy(incidencia,"Média incidência");
+            strcpy(categoria,"FFFF00"); incidencia = 'C';
         }if(casos < 20){
-            strcpy(categoria,"FF0000"); strcpy(incidencia,"Alta incidência");
+            strcpy(categoria,"FF0000"); incidencia = 'D';
         }if(casos >= 20){
-            strcpy(categoria,"800080"); strcpy(incidencia,"Catastrófico");
+            strcpy(categoria,"800080"); incidencia = 'E';
             nodePS = getFirst(getListaPS(listas));
             while(nodePS!=NULL){
                 if (PontoInterno(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), x, y, raio) == true){
@@ -355,7 +355,7 @@ void ci(Cidade listas, double x, double y, double raio, char *categoria, char ar
         NCasos += getNCovid(getInfo(aux));
         aux = getNext(aux);
     }
-    fprintf(txt,"Total de Casos: %d\nÁrea: %lf\nIncidencia: %s\n\n", NCasos, areaConvexa(getListaEnvoltoria(listas)), incidencia);
+    fprintf(txt,"Total de Casos: %d\nÁrea: %lf\nIncidencia: %c\n\n", NCasos, areaConvexa(getListaEnvoltoria(listas)), incidencia);
     fclose(txt);
 }
 

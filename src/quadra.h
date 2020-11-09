@@ -43,6 +43,10 @@ ela recebe o elemento onde a quadra esta
 armazenado como parametro */
 char *getFillQ(Quadra info); 
 
+/* esta funcao retorna o tipo de uma quadra, se ela é
+normal ou com bordas arredondadas
+ela recebe o elemento onde a quadra esta
+armazenado como parametro */
 char *getTipoQ(Quadra elemento);
 
 /* esta funcao retorna o borda de uma quadra

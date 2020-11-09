@@ -308,40 +308,42 @@ void ci(Cidade listas, double x, double y, double raio, char *categoria, char ar
     casos = (cidadeD(listas) / 1000000);
     casos = casos * areaConvexa(getListaEnvoltoria(listas));
 
-    if (casos < 0.1){
-        strcpy(categoria,"00FFFF"); strcpy(incidencia,"Livre de Covid");
-    }if(casos < 5){
-        strcpy(categoria,"008080"); strcpy(incidencia,"Baixa incidência");
-    }if(casos < 10){
-        strcpy(categoria,"FFFF00"); strcpy(incidencia,"Média incidência");
-    }if(casos < 20){
-        strcpy(categoria,"FF0000"); strcpy(incidencia,"Alta incidência");
-    }if(casos >= 20){
-        strcpy(categoria,"800080"); strcpy(incidencia,"Catastrófico");
-        nodePS = getFirst(getListaPS(listas));
-        while(nodePS!=NULL){
-            if (PontoInterno(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), x, y, raio) == true){
-                NPostos++;
+    if ( getListaEnvoltoria(listas) != NULL){    
+        if (casos < 0.1){
+            strcpy(categoria,"00FFFF"); strcpy(incidencia,"Livre de Covid");
+        }if(casos < 5){
+            strcpy(categoria,"008080"); strcpy(incidencia,"Baixa incidência");
+        }if(casos < 10){
+            strcpy(categoria,"FFFF00"); strcpy(incidencia,"Média incidência");
+        }if(casos < 20){
+            strcpy(categoria,"FF0000"); strcpy(incidencia,"Alta incidência");
+        }if(casos >= 20){
+            strcpy(categoria,"800080"); strcpy(incidencia,"Catastrófico");
+            nodePS = getFirst(getListaPS(listas));
+            while(nodePS!=NULL){
+                if (PontoInterno(getXPS(getInfo(nodePS)), getYPS(getInfo(nodePS)), x, y, raio) == true){
+                    NPostos++;
+                }
+                nodePS = getNext(nodePS);
             }
-            nodePS = getNext(nodePS);
+            if (NPostos == 0){
+                printf("true\n");
+                postoLista(getListaPS(listas), centroideX(getListaEnvoltoria(listas)), centroideY(getListaEnvoltoria(listas)));
+            }
         }
-        if (NPostos == 0){
-            printf("true\n");
-            postoLista(getListaPS(listas), centroideX(getListaEnvoltoria(listas)), centroideY(getListaEnvoltoria(listas)));
-        }
-    }
 
-    aux = getFirst(getListaPontosCovid(listas));
-    while(aux!=NULL){
-        fprintf(txt,"CEP x: %lf y: %lf\n", getXCovid(getInfo(aux)), getYCovid(getInfo(aux)));
-        aux = getNext(aux);
+        aux = getFirst(getListaPontosCovid(listas));
+        while(aux!=NULL){
+            fprintf(txt,"CEP x: %lf y: %lf\n", getXCovid(getInfo(aux)), getYCovid(getInfo(aux)));
+            aux = getNext(aux);
+        }
+        aux = getFirst(getListaPontosCovid(listas));
+        while(aux!=NULL){
+            NCasos += getNCovid(getInfo(aux));
+            aux = getNext(aux);
+        }
+        fprintf(txt,"Total de Casos: %d\nÁrea: %lf\nIncidencia: %s\n\n", NCasos, areaConvexa(getListaEnvoltoria(listas)), incidencia);
     }
-    aux = getFirst(getListaPontosCovid(listas));
-    while(aux!=NULL){
-        NCasos += getNCovid(getInfo(aux));
-        aux = getNext(aux);
-    }
-    fprintf(txt,"Total de Casos: %d\nÁrea: %lf\nIncidencia: %s\n\n", NCasos, areaConvexa(getListaEnvoltoria(listas)), incidencia);
 
     fclose(txt);
 }

@@ -1,5 +1,0 @@
-dq hob2-0ps-19.32 150.000000
-Cep: b2-0ps-19.32 Id: hob2-0ps-19.32 X: 4185.000000 Y: 1709.800000 Fill: red Stroke: firebrick
-
-Cep: b2-0ps-19.33 Id: hob2-0ps-19.32 X: 4185.000000 Y: 1709.800000 Fill: red Stroke: firebrick
-

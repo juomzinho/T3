@@ -42,16 +42,6 @@ double getYCovid(Info elemento){
     return covid->y;
 }
 
-double getXEnvoltoria(Info elemento){
-    EnvoltoriaStruct *covid = (EnvoltoriaStruct*) elemento;
-    return covid->x;
-}
-
-double getYEnvoltoria(Info elemento){
-    EnvoltoriaStruct *covid = (EnvoltoriaStruct*) elemento;
-    return covid->y;
-}
-
 void criaEnvoltoria(double x, double y, Lista lista){
     EnvoltoriaStruct *envolt = (EnvoltoriaStruct* ) malloc (sizeof(EnvoltoriaStruct));
 
@@ -106,42 +96,15 @@ void criaQuadrado(Lista l, double x, double y){
     insere(l, quadrado);
 }
 
-void criaPontoCovid(Lista lista, Lista listaQ, int n, char cep[], char face, int num){
+
+void  criaPontoCovid(Lista lista, double x, double y, int n){
     CovidStruct *covid = (CovidStruct*) malloc (sizeof(CovidStruct));
-    No nodeQ = getFirst(listaQ);
-    Info elemento;
-
-    while (nodeQ != NULL){
-        elemento = getInfo(nodeQ);
-
-        if (strcmp(getCep(getInfo(nodeQ)),cep)==0){
-            if (face == 'N'){
-                covid->x = getXQ(elemento) + num;
-                covid->y = getYQ(elemento) + getHQ(elemento);
-                covid->n = n;        
-            }
-            if (face == 'O'){
-                covid->x = getXQ(elemento) + getWQ(elemento);
-                covid->y = getYQ(elemento)+num;
-                covid->n = n;
-            }
-            if (face == 'L'){
-                covid->n = getXQ(elemento);
-                covid->y = getYQ(elemento) + num;
-                covid->n = n;
-            }
-            if (face == 'S'){
-                covid->x = getXQ(elemento) + num;
-                covid->y = getYQ(elemento);
-                covid->n = n;
-            }
-            break;
-        }
-        nodeQ = getNext(nodeQ);
-    }
+    
+    covid->x = x;
+    covid->y = y;
+    covid->n = n;
 
     insere(lista, covid);
-
 }
 
 void imprimeQuadrado(double x, double y, int n, char saida[]){
@@ -212,21 +175,23 @@ void imprimeCirculoVerde(double x, double y, double raio, char saida[]){
 
 void imprimeEnvoltoria(Lista lista, char fill[], char saida[]){
     FILE *arq;
-    arq = (saida,"a");
+    arq = fopen(saida, "a");
+
     No node = getFirst(lista);
 
-    fprintf(arq,"<polygon pontis\"");
-    for (int i = 0; i < length(lista)-1; i++){
-        fprintf(arq,"%lf,%lf ", getXEnvoltoria(getInfo(node)), getYEnvoltoria(getInfo(node)));
+    fprintf(arq,"\n\t<polygon points=\"");
+    for (int i = 0; i < length(lista); i++){
+        fprintf(arq,"%lf,%lf ", getXCovid(getInfo(node)), getYCovid(getInfo(node)));
         node = getNext(node);
     }
-    fprintf(arq, "\" fill=\"#%s\" stoke=\"red\" storke-width=\"5px\" opacity=\"0.5\"",fill);
+    fprintf(arq, "\" fill=\"#%s\" stroke=\"red\" stroke-width=\"5px\" opacity=\"0.5\"/>",fill);
     
     fclose(arq);
 }
 
-void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num){
-
+void cv(Lista listaCovid, Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num){
+    double x, y;
+    
     No node = getFirst(listaQuadra);
 
     while (node != NULL){
@@ -235,23 +200,31 @@ void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num)
         if(strcmp(getCep(elemento),cep)==0){
             
             if (face == 'N'){
+                x = getXQ(elemento)+num;
+                y = getYQ(elemento) + (getHQ(elemento)-20);
                 criaQuadradoeN(listaQRY, getXQ(elemento)+num, getYQ(elemento) + (getHQ(elemento)-20), n);        
             }
             if (face == 'O'){
+                x = getXQ(elemento)+ (getWQ(elemento) - 20);
+                y = getYQ(elemento) + num;
                 criaQuadradoeN(listaQRY, getXQ(elemento) + (getWQ(elemento) - 20), getYQ(elemento)+num, n);
             }
             if (face == 'L'){
+                x = getXQ(elemento);
+                y = getYQ(elemento) + num;
                 criaQuadradoeN(listaQRY, getXQ(elemento), getYQ(elemento)+num, n);
             }
             if (face == 'S'){
+                x = getXQ(elemento) + num;
+                y = getYQ(elemento);
                 criaQuadradoeN(listaQRY, getXQ(elemento)+num, getYQ(elemento), n);
             }
             break;
         }
 
         node = getNext(node);
-    }    
-
+    } 
+    criaPontoCovid(listaCovid, x, y, n);   
 }
 
 void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]){
@@ -325,122 +298,128 @@ void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]){
 void ci(Cidade listas, double x, double y, double raio){
     No nodePS = getFirst(getListaPS(listas)), nodeQ = getFirst(getListaQuadra(listas));
     Info elemento = getInfo(nodeQ);
-    int size = length(getListaPS(listas));       
-
-    // quickSort(getListaPS(listas), getXQ(elemento), getYQ(elemento), 0, size);
+    int size = length(getListaPS(listas)), NCasos = 0;
+    char categoria[6];
+    double casos, area;       
 
     criaCirculoVerde(getListaQRY(listas), raio, x, y);
 
-    envoltoria(x, y, raio, getListaCovid(listas), getListaPS(listas), getListaEnvoltoria(listas), cidadeD(listas));
+    envoltoria(x, y, raio, getListaCovid(listas), getListaPS(listas), getListaEnvoltoria(listas));
 
-    // while (nodePS!=NULL){
-    //     printf("%lf\n",dist(getXQ(elemento), getYQ(elemento), getXPS(getInfo(nodePS)),getYPS(getInfo(nodePS))));
-    //     nodePS = getNext(nodePS);
-    // }
-    // printf("\n");
-
-}
-
-void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS, Lista listaEnvoltoria, double densidade){
-    int NPontosNoCirc = 0;
-    No nodeCovid = getFirst(listaCovid), nodePS = getFirst(listaPS), *aux, *aux2;
-    Info elemento;
-
-    while (nodeCovid != NULL){   
-        elemento = getInfo(nodeCovid);
-
-        if (PontoInterno(getXCovid(elemento), getYCovid(elemento), x, y, raio) == true){
-            NPontosNoCirc ++;
+    area = ((cidadeW(listas) * cidadeH(listas)) / 10000000);
+    
+    No nodeCovid = getFirst(getListaCovid(listas));
+    while(nodeCovid != NULL){
+        if (PontoInterno(getXCovid(getInfo(nodeCovid)), getYCovid(getInfo(nodeCovid)), x, y, raio) == true){
+            NCasos +=  getNCovid(getInfo(nodeCovid));
+        }else{
+            removeElemento(getListaCovid(listas), getInfo(nodeCovid));
         }
-
+         
         nodeCovid = getNext(nodeCovid);
     }
 
-    if ( NPontosNoCirc < 3 ){
-        // printf("Numero de casos insuficientes para fazer uma envoltoria.\n");
+    postoLista(getListaPS(listas), centroideX(getListaEnvoltoria(listas)), centroideY(getListaEnvoltoria(listas)));
+
+    // casos = (cidadeD(listas) * area);
+
+    //  printf("%.1lf\n", casos);
+
+    // casos = ((NCasos / casos) * 100000);
+   
+    // if (casos < 0.1){
+    //     strcpy(categoria,"00FFFF");
+    // }if(casos < 5){
+    //     strcpy(categoria,"008080");
+    // }if(casos < 10){
+    //     strcpy(categoria,"FFFF00");
+    // }if(casos < 20){
+    //     strcpy(categoria,"FF0000");
+    // }if(casos >= 20){
+    //     strcpy(categoria,"800080");
+    // }
+    
+
+}
+
+void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS, Lista listaEnvoltoria){
+    No nodeCovid = getFirst(listaCovid), *aux, *aux2, *aux3,*p0;
+    Info d1, d2;
+    int NPontos = 0, min = 0;
+
+    while(nodeCovid!=NULL){
+        if (PontoInterno(getXCovid(getInfo(nodeCovid)), getYCovid(getInfo(nodeCovid)), x, y, raio)){
+            NPontos ++;
+        }        
+        nodeCovid = getNext(nodeCovid);
+    }
+
+    if (NPontos < 3){
         return;
     }
-    
-    shellSort(listaCovid, length(listaCovid), x, y);
-    
-    double ymin, min, y1;
 
-    ymin = getYCovid(getInfo(getFirst(listaCovid)));
-    min = 0;
+    aux = getFirst(listaCovid);
+    d1 = getInfo(aux);
 
-    for (int i = 0; i < length(listaCovid); i++){
-        nodeCovid = getFirst(listaCovid);
+    for (int i = 0; i < NPontos; i++){
+        aux2 = getFirst(listaCovid);
         for (int k = 0; k < i; k++){
-            nodeCovid = getNext(nodeCovid);
+            aux2 = getNext(aux2);
         }
+        d2 = getInfo(aux2);
 
-        y1 = getYCovid(getInfo(nodeCovid));
-
-        if ((y1 < min) || (ymin == y1) && getXCovid(getInfo(nodeCovid)) < getXCovid(getInfo(getFirst(listaCovid)))){
-            ymin = getYCovid(nodeCovid);
+        if ((getYCovid(d2) < getYCovid(d1)) || getYCovid(d2) == getYCovid(d1) && getXCovid(d2) < getXCovid(d1))        {
+            aux = aux2;
+            d1 = getInfo(aux);
             min = i;
-        }           
+        } 
     }
-    
+
     swap(listaCovid, min);
-
-    int cont = 0;
-
-    nodeCovid = getFirst(listaCovid);
-    while(cont!=3 && NPontosNoCirc >= 3 ){
-        if ( PontoInterno(getXCovid(getInfo(nodeCovid)), getYCovid(getInfo(nodeCovid)), x, y, raio) == true){
-            CovidStruct *covid = (CovidStruct*) malloc (sizeof(CovidStruct));
-
-            covid->n = getNCovid(getInfo(nodeCovid));
-            covid->x = getXCovid(getInfo(nodeCovid)); 
-            covid->y = getYCovid(getInfo(nodeCovid));
-
-            insere(listaEnvoltoria, covid);
-
-            cont++; 
-        }
-        nodeCovid = getNext(nodeCovid);
-    }
+    quickSort(listaCovid, 0, length(listaCovid));
     
-     
-    for (int i = 3; i < length(listaCovid); i++){
-        nodeCovid = getFirst(listaCovid);
+    for (int i = 0; i < 3; i++){
+        aux = getFirst(listaCovid);
         for (int k = 0; k < i; k++){
-            nodeCovid = getNext(nodeCovid);
-        }
+            aux = getNext(aux);
+        }      
 
-        aux = getLast(listaEnvoltoria);
-        aux2 = getPrevious(aux);
-        Info dado1, dado2;
-        dado1 = getInfo(aux);
-        dado2 = getInfo(aux2);
-
-
-        while(orient(getXCovid(dado2), getYCovid(dado2), getXCovid(dado1), getYCovid(dado2), getXCovid(getInfo(nodeCovid)), getYCovid(getInfo(nodeCovid))) != 2){
-                removeElemento(listaEnvoltoria, aux);
-                aux = getLast(listaEnvoltoria);
-                aux2 = getPrevious(aux);
-                dado1 = getInfo(aux);
-                dado2 = getInfo(aux2);
-        }
-
-        // CovidStruct *covid = (CovidStruct*) malloc (sizeof(CovidStruct));
-
-        // covid->n = getNCovid(getInfo(nodeCovid));
-        // covid->x = getXCovid(getInfo(nodeCovid)); 
-        // covid->y = getYCovid(getInfo(nodeCovid));
-
-        // insere(listaEnvoltoria, covid);
-        
+        insere(listaEnvoltoria, getInfo(aux));
     }
 
+
+    for (int i = 3; i < length(listaCovid); i++){
+        aux = getFirst(listaCovid);
+        for (int k = 0; k < i; k++){
+            aux = getNext(aux);
+        }  
+        aux2 = getLast(listaEnvoltoria);
+        aux3 = getPrevious(aux2);
+
+        while (orient(getInfo(aux3),getInfo(aux2), getInfo(aux)) != 2){
+            removeElemento(listaEnvoltoria, getInfo(getLast(listaEnvoltoria)));
+            aux2 = getLast(listaEnvoltoria);
+            aux3 = getPrevious(aux2);
+        }
+
+        criaEnvoltoria(getXCovid(getInfo(aux)), getYCovid(getInfo(aux)), listaEnvoltoria);
+    }   
+
+    aux = getFirst(listaEnvoltoria);
+    while(aux!=NULL){
+        printf("x: %lf  y: %lf\n", getXCovid(getInfo(aux)), getYCovid(getInfo(aux)));
+        aux = getNext(aux);
+    }
 }
 
-int compare(double x1, double y1, double x2, double y2){
-    int o = orient(0, 0, x1, y1, x2 ,y2), distancia;
+int compare(Info a, Info b, Info c){
+    CovidStruct* p0 = (CovidStruct*) a;
+    CovidStruct* p2 = (CovidStruct*) b;
+    CovidStruct* p3 = (CovidStruct*) c; 
 
+    int o = orient(p0, p2 , p3), distancia;
     if (o == 0){
-       if (dist(0 , 0, x2, y2) >= dist(0, 0, x1, y1)){
+       if (dist(getXCovid(p0) , getYCovid(p0), getXCovid(p3), getYCovid(p3)) >= dist(getXCovid(p0) , getYCovid(p0), getXCovid(p2), getYCovid(p2))){
            distancia = 1;
        }
 
@@ -454,23 +433,23 @@ int compare(double x1, double y1, double x2, double y2){
     }else{
         return 1;
     }
-    
 }
 
-int orient(double x1, double y1, double x2, double y2, double x3, double y3){
-    double val;
+int orient(Info a, Info b, Info c){
+    CovidStruct* p0 = (CovidStruct*) a;
+    CovidStruct* p2 = (CovidStruct*) b;
+    CovidStruct* p3 = (CovidStruct*) c; 
 
-    val = (y2 - y1) * (x3 - x2) - (x2 - x1) * (y3 - y2);
 
-    printf("%lf %lf\n", x3, y3);
+    double val =  (getYCovid(p2) - getYCovid(p0)) * ( getXCovid(p3) - getXCovid(p2)) - (getXCovid(p2) - getXCovid(p0)) * (getYCovid(p3) - getYCovid(p2));
 
     if (val == 0){
         return 0;
     }if(val > 0){
         return 1;
-    }else{
-        return 2;
     }
+    return 2;
+    
 }
 
 double areaConvexa(Lista lista){
@@ -481,13 +460,13 @@ double areaConvexa(Lista lista){
         aux = getFirst(lista);
         for (int k = 0; k < i; k++){
             aux = getNext(aux); 
-        }    
-
-        area += (getXEnvoltoria(aux) * getYEnvoltoria(getNext(aux)) - getXEnvoltoria(getNext(aux)) * getYEnvoltoria(aux));
+        }
+        area += (getXCovid(getInfo(aux)) * getYCovid(getInfo(getNext(aux))) - getXCovid(getInfo(getNext(aux))) * getYCovid(getInfo(aux)));
     }
     
     area /= 2;
 
+    printf("%.2lf\n", area);
     return area;
 
 }
@@ -500,10 +479,15 @@ double centroideX(Lista lista){
         aux = getFirst(lista);
         for (int k = 0; k < i; k++){
             aux = getNext(aux); 
-        }        
+        }
+        Info elemento = getInfo(aux);  
         
-        cx += ((getXEnvoltoria(aux) + getXEnvoltoria(getNext(aux))) * (getXEnvoltoria(aux) * getYEnvoltoria(getNext(aux)) - getXEnvoltoria(getNext(aux)) * getYEnvoltoria(aux)));        
+        cx += ((getXCovid(elemento) + getXCovid(getInfo(getNext(aux)))) * (getXCovid(elemento) * getYCovid(getInfo(getNext(aux))) - getXCovid(getInfo(getNext(aux))) * getYCovid(elemento)));        
     }
+
+    cx /= (6*areaConvexa(lista));
+
+    printf("%.2lf\n", cx);
 
     return cx;
 }
@@ -520,18 +504,24 @@ double centroideY(Lista lista){
                 aux = getNext(aux);
             }
             aux2 = getFirst(lista);
+            Info elemento = getInfo(aux), elemento2 = getInfo(aux2); 
 
-            cy += ((getXEnvoltoria(aux) + getXEnvoltoria(aux2)) * (getXEnvoltoria(aux) * getYEnvoltoria(aux2) - getXEnvoltoria(aux2)* getYEnvoltoria(aux)));
+            cy += ((getYCovid(elemento) + getYCovid(elemento2)) * (getXCovid(elemento) * getYCovid(elemento2) - getXCovid(elemento2) * getYCovid(elemento)));
         }else{
             aux = getFirst(lista);
             for (int k = 0; k < i; k++){
                 aux = getNext(aux);
             }
             aux2 = getFirst(lista);
+            Info elemento = getInfo(aux), elemento2 = getInfo(aux2); 
 
-            cy += ((getXEnvoltoria(aux) + getXEnvoltoria(getNext(aux))) * (getXEnvoltoria(aux) * getYEnvoltoria(getNext(aux)) - getXEnvoltoria(getNext(aux))* getYEnvoltoria(aux)));
+            cy += ((getYCovid(elemento) + getYCovid(getInfo(getNext(aux)))) * (getXCovid(elemento) * getYCovid(getInfo(getNext(aux))) - getXCovid(getInfo(getNext(aux)))* getYCovid(elemento)));
         }        
     }
+
+    cy /= (6*areaConvexa(lista));
+
+    printf("%.2lf\n", cy);
 
     return cy;
 }

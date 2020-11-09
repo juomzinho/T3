@@ -23,13 +23,13 @@ void imprimePosto(double x, double y, int raio, char fill[], char saida[]){
 }
 
 
-Posto postoLista(double x, double y){
+void postoLista(Lista lista, double x, double y){
     PSStruct* posto = (PSStruct*) malloc(sizeof(PSStruct));
 
     posto->x = x;
     posto->y = y;
 
-    return posto;
+    insere(lista, posto);
 }
 
 double getXPS(Info elemento){

@@ -10,7 +10,7 @@ double getYPS(Info elemento);
 
 void imprimePosto(double x, double y, int raio, char fill[], char saida[]);
 
-Posto postoLista(double x, double y);
+void postoLista(Lista lista, double x, double y);
 
 void imprimeListaPS(Lista l, char saida[]);
 

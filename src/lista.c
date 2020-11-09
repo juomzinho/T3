@@ -5,6 +5,7 @@
 #include "lista.h"
 #include "resolveQry.h"
 #include "posto.h"
+#include "covid.h"
 
 typedef struct node{
     Info info;
@@ -152,18 +153,18 @@ void removeElemento(Lista l, Info info){
         if(aux->info == info){
             if (aux==lista->primeiro){
                 lista->primeiro = aux->proximo;
-                lista->primeiro->anterior = NULL;
-            }
-            if(aux==lista->ultimo){
+                aux->proximo->anterior = NULL;
+            }else if(aux==lista->ultimo){
                 lista->ultimo = aux->anterior;
-                lista->ultimo->proximo = NULL;
-            }
+                aux->anterior->proximo = NULL;
+            }else{
+                aux2 = aux->proximo;
+                aux2->anterior = aux->anterior;
+                aux2->proximo->anterior = aux2;
 
-            aux2 = aux->proximo;
-            aux2->anterior = aux->anterior;
-
-            if(aux->anterior!=NULL){
-                aux->anterior->proximo = aux2;
+                if(aux->anterior!=NULL){
+                    aux->anterior->proximo = aux2;
+                }
             }
             
             free(aux->info);
@@ -229,27 +230,6 @@ void shellSort(Lista lista, int size, double x, double y){
 	
 }
 
-int particiona(Lista lista, int inicio, int size, double x, double y){
-    NoStruct *pivo = getLast(lista), *aux, aux2;
-    int i = inicio;
-
-    for (int j = i; j < size; j++){
-        aux = getFirst(lista);
-        for (int k = 0; k < j; k++){
-            aux = getNext(aux);
-        }
-
-        if (dist(x, y, getXPS(getInfo(pivo)),getYPS(getInfo(pivo))) >=  dist(x, y, getXPS(getInfo(aux)),getYPS(getInfo(aux)))){
-            aux2.info = pivo->info;
-            pivo->info = aux->info;
-            aux->info = aux2.info;
-            i = i + 1;
-        }
-    }
-    
-    return i;
-}
-
 void swap(Lista lista, int min){
     NoStruct *node1, *node2, aux;
 
@@ -264,16 +244,78 @@ void swap(Lista lista, int min){
     node2->info = aux.info;    
 }
 
-void quickSort(Lista lista, double x, double y, int inicio, int size){
-    int p;
-    size--;
-    inicio =0;
+// void quickSort(Lista lista, int inicio, int size){
+//     int i = inicio, j = size;
+//     No aux;
+//     for ( i = 0; i < size; i++){
+//         No aux = getFirst(lista);
+//         for (int k = 0; k < i; k++){
+//             aux = getNext(aux);
+//         }
+//         if (compare(getInfo(getFirst(lista)), getInfo(aux), getInfo(getLast(lista))){
+//             /* code */
+//         }
+//     }
+// }
 
+void quickSort(Lista lista, int inicio, int size){
+    int i = inicio;
+    int j = size-1;
+    NoStruct *aux, *pivo, *aux2, aux3;
+    Info *d1, *d2, *d3;
 
-    if (size > inicio){
-        p = particiona(lista, inicio, size, x, y);
-        quickSort(lista, x, y, inicio, p-1);
-        quickSort(lista, x, y, p + 1, size);
-    }    
-    
+    pivo = getFirst(lista);
+    for (int k = 0; k < ((inicio+size)/2); k++){
+        pivo = getNext(pivo);
+    }
+    d1 = getInfo(pivo);
+
+    while(i<=j){
+        aux = getFirst(lista);
+        for (int k = 0; k < i; k++){
+            aux = getNext(aux);
+        }
+        d2 = getInfo(aux);
+
+        while(compare(getInfo(getFirst(lista)), d1, d2) > 0 && i < size){
+                aux = getNext(aux);
+                d2 = getInfo(aux);
+                i++;
+        }
+
+        aux = getFirst(lista);
+        for (int k = 0; k < j; k++){
+            aux = getNext(aux);
+        }
+        d2 = getInfo(aux);
+        while(compare(getInfo(getFirst(lista)), d2, d1) > 0 && j > inicio){
+                aux = getPrevious(aux);
+                d2 = getInfo(aux);
+
+                j--;
+        }
+        
+        if (i <= j){
+            aux2 = getFirst(lista);
+            for (int k = 0; k < j; k++){
+                aux2 = getNext(aux2);
+            }
+            aux = getFirst(lista);
+            for (int k = 0; k < i; k++){
+                aux = getNext(aux);
+            }
+
+            aux3.info = aux->info;
+            aux->info = aux2->info;
+            aux2->info = aux3.info;
+            j--;
+            i++;
+        }
+        
+    }
+    if (inicio < j){
+        quickSort(lista, inicio, j + 1);
+    }if (size > i){
+        quickSort(lista, i, size);
+    }
 }

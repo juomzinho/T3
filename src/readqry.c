@@ -78,8 +78,7 @@ void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
 
         if(strcmp("cv",comando)==0){
             fscanf(arq,"%d %s %c %d", &def.n, def.cep, &def.face, &def.num);
-            cv(getListaQuadra(cidade), getListaQRY(cidade), def.n, def.cep, def.face, def.num);
-            criaPontoCovid(getListaCovid(cidade), getListaQuadra(cidade), def.n, def.cep, def.face, def.num);
+            cv( getListaCovid(cidade),getListaQuadra(cidade), getListaQRY(cidade), def.n, def.cep, def.face, def.num);
         }
 
         if(strcmp("soc",comando)==0){
@@ -130,8 +129,8 @@ void leituraQRY(char saida[] , char arquivotxt[],char qry[], Cidade cidade){
     imprimeListaRB(getListaRadio(cidade), saida);
     imprimeListaH(getListaHidrante(cidade), saida);
     imprimeListaPS(getListaPS(cidade), saida);
+    imprimeEnvoltoria(getListaEnvoltoria(cidade), "00FFFF", saida);
     imprimeQry(getListaQRY(cidade), saida);
-    imprimeRet(cidadeX(cidade), cidadeY(cidade), cidadeW(cidade), cidadeH(cidade), "5px", saida);
 
     fecharSvg(saida);
 

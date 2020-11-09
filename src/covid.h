@@ -9,7 +9,7 @@ double getXCovid(Info elemento);
 
 double getYCovid(Info elemento);
 
-void criaPontoCovid(Lista lista, Lista listaQ, int n, char cep[], char face, int num);
+void criaPontoCovid(Lista lista, double x, double y, int n);
 
 void criaTracejado(double x, double y, double x2, double y2, Lista lista);
 
@@ -27,17 +27,17 @@ void imprimeCirculoVerde(double x, double y, double raio, char saida[]);
 
 void imprimeEnvoltoria(Lista lista, char fill[], char saida[]);
 
-void cv(Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num);
+void cv(Lista listaCovid, Lista listaQuadra, Lista listaQRY, int n, char cep[], char face,int num);
 
 void soc(Cidade cidade, int k, char cep[], char face, int num, char arqtxt[]);
 
 void ci(Cidade listas, double x, double y, double raio);
 
-void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS, Lista listaEnvoltoria,double densidade);
+void envoltoria(double x, double y, double raio, Lista listaCovid, Lista listaPS, Lista listaEnvoltoria);
 
-int compare(double x1, double y1, double x2, double y2);
+int compare(Info a, Info b, Info c);
 
-int orient(double x1, double y1, double x2, double y2, double x3, double y3);
+int orient(Info a, Info b, Info c);
 
 double areaConvexa(Lista lista);
 

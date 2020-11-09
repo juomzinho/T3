@@ -142,8 +142,8 @@ void leituraGeo(char geo[],char saida[], Cidade cidade){
             if(strcmp("ps",comando)==0){
                 fscanf(arq,"%lf %lf", &def.x, &def.y);
                 imprimePosto(def.x, def.y,6,"red",saida);
-                posto = postoLista(def.x, def.y);
-                insere(getListaPS(cidade), posto);
+                postoLista(getListaPS(cidade), def.x, def.y);
+                // insere(getListaPS(cidade), posto);
             }
 
             if(strcmp("dd",comando)==0){

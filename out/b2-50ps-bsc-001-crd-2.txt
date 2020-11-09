@@ -1,3 +1,6 @@
 crd? hneb2-50ps-14.20
 x: 2505.000000 y: 1296.200000 Hidrante
 
+crd? hneb2-50ps-14.20
+x: 2505.000000 y: 1296.200000 Hidrante
+

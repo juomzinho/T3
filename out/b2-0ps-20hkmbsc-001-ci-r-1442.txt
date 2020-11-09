@@ -7,3 +7,12 @@ Total de Casos: 94
 Área: 2364026.000000
 Incidencia: Alta incidência
 
+CEP x: 3515.000000 y: 90.000000
+CEP x: 5105.000000 y: 1603.600000
+CEP x: 3775.000000 y: 1407.000000
+CEP x: 2895.000000 y: 786.400000
+CEP x: 2605.000000 y: 544.000000
+Total de Casos: 94
+Área: 2364026.000000
+Incidencia: D
+

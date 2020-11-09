@@ -61,10 +61,16 @@ No getInfo(No elemento);
 ela recebe a lista a ser desalocada por parametro */
 void desalocaLista(Lista l);
 
+/* Esta funcao ordena os pontos da lista baseada na distancia entre pontos
+ela recebe uma lista, o tamanho da lista, e os pontos para calcular a distancia*/
 void shellSort(Lista lista, int size, double x, double y);
 
+/* coloca o ponto com menor y na primeira posicao da lista
+ele recebe uma lista e o numero da posicao em que o elemento esta localizado*/
 void swap(Lista lista, int min);
 
+/* Esta funcao ordena os pontos da lista baseada no angulo polar
+ela rebece uma lista, o valor do inicio e o tamanho maximo a ser percorrido*/
 void quickSort(Lista lista, int inicio, int size);
 
 #endif

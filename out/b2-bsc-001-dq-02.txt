@@ -5,3 +5,10 @@ Cep: b2-6.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: li
 
 Cep: b2-7.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: lightblue
 
+dq # rbb2-6.21 150.000000
+Cep: b2-5.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: lightblue
+
+Cep: b2-6.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: lightblue
+
+Cep: b2-7.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: lightblue
+

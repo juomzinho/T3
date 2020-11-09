@@ -3,3 +3,8 @@ Cep: b2-1.25 Id: hob2-1.25 X: 3275.000000 Y: 75.400000 Fill: red Stroke: firebri
 
 Cep: b2-1.26 Id: hob2-1.25 X: 3275.000000 Y: 75.400000 Fill: red Stroke: firebrick
 
+dq hob2-1.25 150.000000
+Cep: b2-1.25 Id: hob2-1.25 X: 3275.000000 Y: 75.400000 Fill: red Stroke: firebrick
+
+Cep: b2-1.26 Id: hob2-1.25 X: 3275.000000 Y: 75.400000 Fill: red Stroke: firebrick
+

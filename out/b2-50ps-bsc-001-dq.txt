@@ -88,3 +88,93 @@ Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta 
 
 Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
 
+cbq 1325.000000 1387.000000 360.000000 red
+	CEP: b2-50ps-13.10
+
+	CEP: b2-50ps-13.11
+
+	CEP: b2-50ps-14.9
+
+	CEP: b2-50ps-14.10
+
+	CEP: b2-50ps-14.11
+
+	CEP: b2-50ps-14.12
+
+	CEP: b2-50ps-15.9
+
+	CEP: b2-50ps-15.10
+
+	CEP: b2-50ps-15.11
+
+	CEP: b2-50ps-15.12
+
+	CEP: b2-50ps-16.9
+
+	CEP: b2-50ps-16.10
+
+	CEP: b2-50ps-16.11
+
+	CEP: b2-50ps-16.12
+
+	CEP: b2-50ps-17.9
+
+	CEP: b2-50ps-17.10
+
+	CEP: b2-50ps-17.11
+
+	CEP: b2-50ps-17.12
+
+	CEP: b2-50ps-18.10
+
+	CEP: b2-50ps-18.11
+
+dq hnob2-50ps-15.10 150.000000
+Cep: b2-50ps-15.10 Id: hnob2-50ps-15.10 X: 1325.000000 Y: 1387.000000 Fill: red Stroke: firebrick
+
+cbq 7505.000000 166.200000 360.000000 blue
+	CEP: b2-50ps-1.56
+
+	CEP: b2-50ps-1.57
+
+	CEP: b2-50ps-1.58
+
+	CEP: b2-50ps-1.59
+
+	CEP: b2-50ps-1.60
+
+	CEP: b2-50ps-2.56
+
+	CEP: b2-50ps-2.57
+
+	CEP: b2-50ps-2.58
+
+	CEP: b2-50ps-2.59
+
+	CEP: b2-50ps-2.60
+
+	CEP: b2-50ps-3.56
+
+	CEP: b2-50ps-3.57
+
+	CEP: b2-50ps-3.58
+
+	CEP: b2-50ps-3.59
+
+	CEP: b2-50ps-3.60
+
+	CEP: b2-50ps-4.57
+
+	CEP: b2-50ps-4.58
+
+	CEP: b2-50ps-4.59
+
+	CEP: b2-50ps-5.58
+
+dq # rbb2-50ps-2.58 150.000000
+Cep: b2-50ps-1.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-2.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+
+Cep: b2-50ps-3.58 Id: rbb2-50ps-2.58 X: 7505.000000 Y: 166.200000 Fill: magenta Stroke: lightblue
+

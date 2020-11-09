@@ -1,3 +1,6 @@
 crd? hnob2-0ps-500hkm3.9
 x: 1195.000000 y: 297.400000 Hidrante
 
+crd? hnob2-0ps-500hkm3.9
+x: 1195.000000 y: 297.400000 Hidrante
+

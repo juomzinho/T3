@@ -2,28 +2,52 @@
 #define _RESOLVEQRY_H_
 #include "cidade.h"
 
+/*Esta funcao retorna o y de um elemento
+ passado como parametro*/
 double getYQRY(Info elemento);
 
+/*Esta funcao retorna o numero armazenado de um elemento
+ passado como parametro*/
 int getNQRY(Info elemento);
 
+/*Esta funcao retorna o x de um elemento
+ passado como parametro*/
 double getXQRY(Info elemento);
 
+/*Esta funcao retorna o x2 de um elemento
+ passado como parametro*/
 double getX2QRY(Info elemento);
 
+/*Esta funcao retorna o y2 de um elemento
+ passado como parametro*/
 double getY2QRY(Info elemento);
 
+/*Esta funcao retorna o de um elemento
+ passado como parametro*/
 double getWQRY(Info elemento);
 
+/*Esta funcao retorna o h de um elemento
+ passado como parametro*/
 double getHQRY(Info elemento);
 
+/*Esta funcao retorna a area de um elemento
+ passado como parametro*/
 double getAreaQRY(Info elemento);
 
+/*Esta funcao retorna o raio de um elemento
+ passado como parametro*/
 double getRaioQRY(Info elemento);
 
+/*Esta funcao retorna o cep de uma quadra
+ passado como parametro*/
 char *getCepQRY(Info elemento);
 
+/*Esta funcao retorna o tipo de um elemento
+ passado como parametro*/
 char getTipoQRY(Info elemento);
 
+/*Esta funcao retorna o largura da borda de um elemento
+ passado como parametro*/
 char *getSWQRY(Info elemento);
 
 /* esta funcao aloca memoria e armazena os dados de um circulo
@@ -50,10 +74,6 @@ void criaRetanguloQry(double x, double y, double w, double h, char sw[], Lista l
 ela recebe dos dados do retangulo e a lista por parametro 
 no fim ela insere o retangulo na lista*/
 void criaRetFormasQry(double x, double y, double w, double h, char sw[], Lista lista, char forma);
-
-void criaQuadradoeN(Lista l, double x, double y,  int n);
-
-void criaTracejado(double x, double y, double x2, double y2, Cidade listas);
 
 /* esta funcao resolve o comando car
 ela recebe como parametro a lista que contem as listas, os dados lidos do comando car

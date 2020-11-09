@@ -86,3 +86,91 @@ Cep: b2-6.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: li
 
 Cep: b2-7.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: lightblue
 
+cbq 3275.000000 75.400000 360.000000 red
+	CEP: b2-1.24
+
+	CEP: b2-1.25
+
+	CEP: b2-1.26
+
+	CEP: b2-1.27
+
+	CEP: b2-2.24
+
+	CEP: b2-2.25
+
+	CEP: b2-2.26
+
+	CEP: b2-2.27
+
+	CEP: b2-3.24
+
+	CEP: b2-3.25
+
+	CEP: b2-3.26
+
+	CEP: b2-3.27
+
+	CEP: b2-4.25
+
+	CEP: b2-4.26
+
+dq hob2-1.25 150.000000
+Cep: b2-1.25 Id: hob2-1.25 X: 3275.000000 Y: 75.400000 Fill: red Stroke: firebrick
+
+Cep: b2-1.26 Id: hob2-1.25 X: 3275.000000 Y: 75.400000 Fill: red Stroke: firebrick
+
+cbq 2695.000000 529.400000 360.000000 blue
+	CEP: b2-3.21
+
+	CEP: b2-4.20
+
+	CEP: b2-4.21
+
+	CEP: b2-4.22
+
+	CEP: b2-5.19
+
+	CEP: b2-5.20
+
+	CEP: b2-5.21
+
+	CEP: b2-5.22
+
+	CEP: b2-5.23
+
+	CEP: b2-6.19
+
+	CEP: b2-6.20
+
+	CEP: b2-6.21
+
+	CEP: b2-6.22
+
+	CEP: b2-6.23
+
+	CEP: b2-7.19
+
+	CEP: b2-7.20
+
+	CEP: b2-7.21
+
+	CEP: b2-7.22
+
+	CEP: b2-7.23
+
+	CEP: b2-8.20
+
+	CEP: b2-8.21
+
+	CEP: b2-8.22
+
+	CEP: b2-9.21
+
+dq # rbb2-6.21 150.000000
+Cep: b2-5.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: lightblue
+
+Cep: b2-6.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: lightblue
+
+Cep: b2-7.21 Id: rbb2-6.21 X: 2695.000000 Y: 529.400000 Fill: magenta Stroke: lightblue
+

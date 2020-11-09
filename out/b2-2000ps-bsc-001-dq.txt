@@ -94,3 +94,99 @@ Cep: b2-2000ps-3.56 Id: rbb2-2000ps-3.56 X: 7245.000000 Y: 257.000000 Fill: mage
 
 Cep: b2-2000ps-4.56 Id: rbb2-2000ps-3.56 X: 7245.000000 Y: 257.000000 Fill: magenta Stroke: lightblue
 
+cbq 7315.000000 1568.600000 360.000000 red
+	CEP: b2-2000ps-15.56
+
+	CEP: b2-2000ps-15.57
+
+	CEP: b2-2000ps-16.55
+
+	CEP: b2-2000ps-16.56
+
+	CEP: b2-2000ps-16.57
+
+	CEP: b2-2000ps-16.58
+
+	CEP: b2-2000ps-17.55
+
+	CEP: b2-2000ps-17.56
+
+	CEP: b2-2000ps-17.57
+
+	CEP: b2-2000ps-17.58
+
+	CEP: b2-2000ps-18.55
+
+	CEP: b2-2000ps-18.56
+
+	CEP: b2-2000ps-18.57
+
+	CEP: b2-2000ps-18.58
+
+	CEP: b2-2000ps-19.55
+
+	CEP: b2-2000ps-19.56
+
+	CEP: b2-2000ps-19.57
+
+	CEP: b2-2000ps-19.58
+
+	CEP: b2-2000ps-20.56
+
+	CEP: b2-2000ps-20.57
+
+dq hneb2-2000ps-17.57 150.000000
+Cep: b2-2000ps-17.57 Id: hneb2-2000ps-17.57 X: 7315.000000 Y: 1568.600000 Fill: red Stroke: firebrick
+
+cbq 7245.000000 257.000000 360.000000 blue
+	CEP: b2-2000ps-1.55
+
+	CEP: b2-2000ps-1.56
+
+	CEP: b2-2000ps-1.57
+
+	CEP: b2-2000ps-2.54
+
+	CEP: b2-2000ps-2.55
+
+	CEP: b2-2000ps-2.56
+
+	CEP: b2-2000ps-2.57
+
+	CEP: b2-2000ps-2.58
+
+	CEP: b2-2000ps-3.54
+
+	CEP: b2-2000ps-3.55
+
+	CEP: b2-2000ps-3.56
+
+	CEP: b2-2000ps-3.57
+
+	CEP: b2-2000ps-3.58
+
+	CEP: b2-2000ps-4.54
+
+	CEP: b2-2000ps-4.55
+
+	CEP: b2-2000ps-4.56
+
+	CEP: b2-2000ps-4.57
+
+	CEP: b2-2000ps-4.58
+
+	CEP: b2-2000ps-5.55
+
+	CEP: b2-2000ps-5.56
+
+	CEP: b2-2000ps-5.57
+
+	CEP: b2-2000ps-6.56
+
+dq # rbb2-2000ps-3.56 150.000000
+Cep: b2-2000ps-2.56 Id: rbb2-2000ps-3.56 X: 7245.000000 Y: 257.000000 Fill: magenta Stroke: lightblue
+
+Cep: b2-2000ps-3.56 Id: rbb2-2000ps-3.56 X: 7245.000000 Y: 257.000000 Fill: magenta Stroke: lightblue
+
+Cep: b2-2000ps-4.56 Id: rbb2-2000ps-3.56 X: 7245.000000 Y: 257.000000 Fill: magenta Stroke: lightblue
+
